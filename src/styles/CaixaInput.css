@@ -1,0 +1,32 @@
+*{
+
+    font-family: 'Roboto';
+
+}
+
+.Caixa{
+
+    display:flex;
+    width:fill;
+    height:75px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.tag{
+
+    color:#E85D04;
+    font-size: 25px;
+
+}
+
+.caixa_tag_input{
+
+    width: 700px;
+    height:25px;
+    outline: none;
+    border-radius: 30px;
+
+}

@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@-ms-viewport{
+	
+  width: device-width;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+
+  display:flex;
+  padding:0;
+	margin:0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Caixa{
+
+  display:flex;
+  width:fill;
+  height: 700px;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  border-color: chartreuse;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.caixa_logo{
+
+  display:flex;
+  width:fill;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+	
+  font-family: 'Pacifico';
+  font-size:80px;
+	
 }

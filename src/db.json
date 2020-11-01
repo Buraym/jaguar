@@ -1,0 +1,16 @@
+[
+    {
+        "nome": "index.html",
+        "funcao": "Login",
+        "javascript": "App.js",
+        "componentes": ["CampoLoginSenha.jsx", "CaixaInput.jsx"],
+        "estilos": ["index.css", "App.css", "CampoLoginSenha.css", "CaixaInput.css"]
+    },
+    {
+        "nome": "inicio_morador.html",
+        "funcao": "Portal da comunidade",
+        "javascript": "Inicio_morador.js",
+        "componentes": "AbaPrincipal.jsx",
+        "estilos": "AbaPrincipal.css"
+    }
+]
