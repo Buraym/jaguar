@@ -1,5 +1,12 @@
 import React from 'react';
 import '../styles/AbaPrincipal';
+import ImagemBotaoInicio from '../assets/icons/outline_home_black_18dp.png';
+import ImagemBotaoPerfil from '../assets/icons/baseline_person_black_18dp.png';
+import ImagemBotaoReuniões from '../assets/icons/round_cast_black_18dp.png';
+import ImagemBotaoEventos from '../assets/icons/baseline_calendar_today_black_18dp.png';
+import ImagemBotaoServiços from '../assets/icons/round_engineering_black_18dp.png';
+import ImagemBotaoAlugados from '../assets/icons/round_published_with_changes_black_18dp.png';
+import ImagemBotaoLogout from '../assets/icons/baseline_exit_to_app_black_18dp.png';
 
 function AbaPrincipal(props) {
 
@@ -7,62 +14,62 @@ function AbaPrincipal(props) {
 
         <>
 
-            <div id="painel_preto">
+            <div className="painel_preto">
                     
-                <button id="b_inicial" >
+                <button className="b_inicial" >
                     
-                    <img id="icone_inicio" src="" />
+                    <img className="icone_inicio" src={ImagemBotaoInicio} />
                         
-                    <label id="inicio" > Inicio </label>
+                    <label className="inicio" > Inicio </label>
                     
                 </button>
                     
-                <button id="b_perfil">
+                <button className="b_perfil">
                     
-                    <img id="icone_perfil" src="" />
+                    <img className="icone_perfil" src={ImagemBotaoPerfil} />
                         
-                    <label id="perfil" > Perfil </label>
+                    <label className="perfil" > Perfil </label>
                         
                 </button>
                     
-                <button id="b_reunioes" >
+                <button className="b_reunioes" >
                     
                         
-                    <img id="icone_reunioes" src="" />
+                    <img className="icone_reunioes" src={ImagemBotaoReuniões} />
                         
-                    <label id="reunioes" > Reuniões </label>
+                    <label className="reunioes" > Reuniões </label>
 
                 </button>
                     
-                <button id="b_eventos" > 
+                <button className="b_eventos" > 
                     
-                    <img id="icone_eventos" src="" />
+                    <img className="icone_eventos" src={ImagemBotaoEventos} />
                         
-                    <label id="eventos" > Eventos </label>
+                    <label className="eventos" > Eventos </label>
                     
                 </button>
                     
-                <button id="b_servicos" >
+                <button className="b_servicos" >
                     
-                    <img id="icone_servicos" src="" />
+                    <img className="icone_servicos" src={ImagemBotaoServiços} />
                         
-                    <label id="servicos" > Serviços </label>
+                    <label className="servicos" > Serviços </label>
                     
                 </button>
                     
-                <button id="b_alugados" > 
+                <button className="b_alugados" > 
                     
-                    <img id="icone_alugados" src="" />
+                    <img className="icone_alugados" src={ImagemBotaoAlugados} />
                         
-                    <label id="alugados" > Alugados </label>
+                    <label className="alugados" > Alugados </label>
                     
                 </button>
                     
-                <button id="b_logout" >
+                <button className="b_logout" >
                     
-                    <img id="icone_logout" src="" />
+                    <img className="icone_logout" src={ImagemBotaoLogout} />
                         
-                    <label id="logout" > Logout </label>
+                    <label className="logout" > Logout </label>
                     
                 </button>
                 
