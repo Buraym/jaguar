@@ -8,7 +8,7 @@ import ImagemBotaoServiços from '../assets/icons/round_engineering_black_18dp.p
 import ImagemBotaoAlugados from '../assets/icons/round_published_with_changes_black_18dp.png';
 import ImagemBotaoLogout from '../assets/icons/baseline_exit_to_app_black_18dp.png';
 
-function AbaPrincipal(props) {
+function AbaPrincipal() {
 
     return (
 
@@ -18,7 +18,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_inicial" >
                     
-                    <img className="icone_inicio" src={ImagemBotaoInicio} />
+                    <img className="icone_inicio" src={ImagemBotaoInicio} alt="Botao da pagina inicial"/>
                         
                     <label className="inicio" > Inicio </label>
                     
@@ -26,7 +26,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_perfil">
                     
-                    <img className="icone_perfil" src={ImagemBotaoPerfil} />
+                    <img className="icone_perfil" src={ImagemBotaoPerfil} alt="Botao da pagina Perfil"/>
                         
                     <label className="perfil" > Perfil </label>
                         
@@ -35,7 +35,7 @@ function AbaPrincipal(props) {
                 <button className="b_reunioes" >
                     
                         
-                    <img className="icone_reunioes" src={ImagemBotaoReuniões} />
+                    <img className="icone_reunioes" src={ImagemBotaoReuniões} alt="Botao da pagina de Reunioes"/>
                         
                     <label className="reunioes" > Reuniões </label>
 
@@ -43,7 +43,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_eventos" > 
                     
-                    <img className="icone_eventos" src={ImagemBotaoEventos} />
+                    <img className="icone_eventos" src={ImagemBotaoEventos} alt="Botao da pagina Eventos"/>
                         
                     <label className="eventos" > Eventos </label>
                     
@@ -51,7 +51,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_servicos" >
                     
-                    <img className="icone_servicos" src={ImagemBotaoServiços} />
+                    <img className="icone_servicos" src={ImagemBotaoServiços} alt="Botao da pagina Serviços"/>
                         
                     <label className="servicos" > Serviços </label>
                     
@@ -59,7 +59,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_alugados" > 
                     
-                    <img className="icone_alugados" src={ImagemBotaoAlugados} />
+                    <img className="icone_alugados" src={ImagemBotaoAlugados} alt="Botao da pagina Alugados"/>
                         
                     <label className="alugados" > Alugados </label>
                     
@@ -67,7 +67,7 @@ function AbaPrincipal(props) {
                     
                 <button className="b_logout" >
                     
-                    <img className="icone_logout" src={ImagemBotaoLogout} />
+                    <img className="icone_logout" src={ImagemBotaoLogout} alt="Botao de Logout"/>
                         
                     <label className="logout" > Logout </label>
                     

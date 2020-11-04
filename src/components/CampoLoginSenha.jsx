@@ -7,7 +7,7 @@ function CampoLoginSenha() {
 
     return (
 
-        <body>
+        <div>
 
             <div className="Caixa_input_1">
             
@@ -34,7 +34,7 @@ function CampoLoginSenha() {
 
             </div>
 
-        </body>
+        </div>
 
       
     );

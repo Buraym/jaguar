@@ -1,22 +1,48 @@
 import './App.css';
 import CampoLoginSenha from './components/CampoLoginSenha';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './pages/Home';
+import Login from './pages/Login';
 
 function App() {
 
   return (
 
-    <body>
+      <Router>
 
-        <div className="caixa_logo">
+            <div>
 
-          <h1 className="logo"> Jaguar </h1>
+              <nav>
 
-        </div>
+                <ul>
 
-        <CampoLoginSenha/>
+                  <li>
+                    <Link to="/">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="/Login"> Login </Link>
+                  </li>
+                </ul>
+              </nav>
 
+              {/* A <Switch> looks through its children <Route>s and
+                  renders the first one that matches the current URL. */}
+              <Switch>
+                <Route path="/Login">
+                  <Login />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
+              </Switch>
+            </div>
 
-    </body>
+          </Router>
 
   );
 
