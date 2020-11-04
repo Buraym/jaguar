@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/AbaPrincipal';
+import '../styles/abaprincipalstyle.css';
 import ImagemBotaoInicio from '../assets/icons/outline_home_black_18dp.png';
 import ImagemBotaoPerfil from '../assets/icons/baseline_person_black_18dp.png';
 import ImagemBotaoReuniões from '../assets/icons/round_cast_black_18dp.png';
@@ -11,74 +11,41 @@ import ImagemBotaoLogout from '../assets/icons/baseline_exit_to_app_black_18dp.p
 function AbaPrincipal() {
 
     return (
-
         <>
-
             <div className="painel_preto">
-                    
-                <button className="b_inicial" >
-                    
-                    <img className="icone_inicio" src={ImagemBotaoInicio} alt="Botao da pagina inicial"/>
-                        
-                    <label className="inicio" > Inicio </label>
-                    
-                </button>
-                    
-                <button className="b_perfil">
-                    
-                    <img className="icone_perfil" src={ImagemBotaoPerfil} alt="Botao da pagina Perfil"/>
-                        
-                    <label className="perfil" > Perfil </label>
-                        
-                </button>
-                    
-                <button className="b_reunioes" >
-                    
-                        
-                    <img className="icone_reunioes" src={ImagemBotaoReuniões} alt="Botao da pagina de Reunioes"/>
-                        
-                    <label className="reunioes" > Reuniões </label>
-
-                </button>
-                    
-                <button className="b_eventos" > 
-                    
-                    <img className="icone_eventos" src={ImagemBotaoEventos} alt="Botao da pagina Eventos"/>
-                        
-                    <label className="eventos" > Eventos </label>
-                    
-                </button>
-                    
-                <button className="b_servicos" >
-                    
-                    <img className="icone_servicos" src={ImagemBotaoServiços} alt="Botao da pagina Serviços"/>
-                        
-                    <label className="servicos" > Serviços </label>
-                    
-                </button>
-                    
-                <button className="b_alugados" > 
-                    
-                    <img className="icone_alugados" src={ImagemBotaoAlugados} alt="Botao da pagina Alugados"/>
-                        
-                    <label className="alugados" > Alugados </label>
-                    
-                </button>
-                    
-                <button className="b_logout" >
-                    
-                    <img className="icone_logout" src={ImagemBotaoLogout} alt="Botao de Logout"/>
-                        
+                <div className="botoes_paginas">
+                    <button className="b_inicial" >
+                        <img className="icone_inicio" src={ImagemBotaoInicio} alt="Botao da pagina inicial"/>
+                        <label className="inicio" > Inicio </label>
+                    </button>
+                    <button className="b_perfil">
+                        <img className="icone_perfil" src={ImagemBotaoPerfil} alt="Botao da pagina Perfil"/>
+                        <label className="perfil" > Perfil </label>
+                    </button>
+                    <button className="b_reunioes" >
+                        <img className="icone_reunioes" src={ImagemBotaoReuniões} alt="Botao da pagina de Reunioes"/>
+                        <label className="reunioes" > Reuniões </label>
+                    </button>
+                    <button className="b_eventos" > 
+                        <img className="icone_eventos" src={ImagemBotaoEventos} alt="Botao da pagina Eventos"/>  
+                        <label className="eventos" > Eventos </label>
+                    </button>
+                    <button className="b_servicos" >
+                        <img className="icone_servicos" src={ImagemBotaoServiços} alt="Botao da pagina Serviços"/>
+                        <label className="servicos" > Serviços </label>
+                    </button>
+                    <button className="b_alugados" > 
+                        <img className="icone_alugados" src={ImagemBotaoAlugados} alt="Botao da pagina Alugados"/>   
+                        <label className="alugados" > Alugados </label>
+                    </button>
+                </div>
+                <button className="b_logout" >   
+                    <img className="icone_logout" src={ImagemBotaoLogout} alt="Botao de Logout"/>   
                     <label className="logout" > Logout </label>
-                    
                 </button>
-                
             </div>
-
         </>  
-      
     );
-
 }
 
 export default AbaPrincipal;

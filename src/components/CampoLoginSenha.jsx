@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/CampoLoginSenha.css';
+import '../styles/campologinsenhastyle.css';
 import CaixaInput from './CaixaInput';
 import ImagemBotao from '../assets/icons/outline_check_box_outline_blank_black_18dp.png';
 
