@@ -2,11 +2,12 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Perfil from './pages/Perfil';
+import Reunioes from './pages/Reunioes';
 
 function App() {
 
@@ -14,14 +15,12 @@ function App() {
 
       <Router>
         <div>
-          <Link to="/"> Home </Link>  
-          <Link to="/Login"> Login </Link>
           <Switch>
             <Route path="/Login">
               <Login />
             </Route>
             <Route path="/">
-              <Home />
+              <Reunioes />
             </Route>
           </Switch>
         </div>

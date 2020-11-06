@@ -1,21 +1,15 @@
 import React from 'react';
+import '../styles/home.css';
 import AbaPrincipal from '../components/AbaPrincipal';
 
-function Home() {
-    
-    const status = false;
-
-    function handleClick(){
-        console.log(status);
-    }
+function Home(props) {
 
     return (
-        <div className="">
+        <div className="tela">
             <div className="aba-principal">
                 <AbaPrincipal />
             </div>
             <div className="conteudo-pagina">
-                <button onClick={handleClick}> abcdefgh </button>
             </div>
         </div>  
     );

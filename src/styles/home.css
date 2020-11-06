@@ -1,0 +1,16 @@
+.tela{
+
+    display: flex;
+
+}
+
+.conteudo-pagina{
+
+    display: flex;
+    
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}

@@ -1,0 +1,33 @@
+.tela{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-perfil{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coluna2{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
