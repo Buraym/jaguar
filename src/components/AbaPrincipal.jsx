@@ -19,7 +19,6 @@ function AbaPrincipal(props) {
                 <button className="b_inicial" >
                     
                     <img className="icone_inicio" src={ImagemBotaoInicio} />
-                        
                     <label className="inicio" > Inicio </label>
                     
                 </button>
