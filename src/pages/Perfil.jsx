@@ -12,12 +12,16 @@ function Perfil(){
                 <div className="dados">
                     <label className="nome"> Nome Completo </label>
                     <label className="idade"> Idade </label>
-                    <label className="status"> Status </label>
+                    <label className="status"> Morador </label>
                 </div>
             </div>
             <div className="coluna2">
-                <div className="caixa-status"> Status </div>
-                <div className="caixa-alugado"> Item alugado </div>
+                <div className="caixa-status">
+                    <label> Status </label>
+                </div>
+                <div className="caixa-alugado">
+                    <label> Item Alugado </label>
+                </div>
                 <button className="editar-perfil"> Editar perfil</button>
             </div>
         </div>

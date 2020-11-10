@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/reunioesstyle.css';
+import FotoSindico from '../assets/foto sindico.jpg';
 
 function Reunioes(){
 
@@ -6,7 +8,7 @@ function Reunioes(){
         <div className="tela">
             <div className="coluna1">
                 <div className="painel-apresentador">
-                    <img className="foto-apresentador"/>
+                    <img className="foto-apresentador" src={FotoSindico}/>
                     <label className="nome-apresentador"> Nome do apresentador </label>
                 </div>
                 <div className="painel-botoes">

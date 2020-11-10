@@ -10,8 +10,7 @@ import ImagemBotaoAlugados from '../assets/icons/round_published_with_changes_bl
 import ImagemBotaoLogout from '../assets/icons/baseline_exit_to_app_black_18dp.png';
 
 function AbaPrincipal(props) {
-
-    var status = false;
+    var status = status;
 
     function trocarAnimacao(){
         if (status == false){

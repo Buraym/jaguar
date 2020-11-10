@@ -1,13 +1,16 @@
 .tela{
     display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
 }
 
 .coluna1{
     display: flex;
+    height:600px;
 
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -18,16 +21,50 @@
 }
 
 .dados{
+    height:100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
 }
 
 .coluna2{
     display: flex;
+    height:600px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa-status{
+    display: flex;
+    height:200px;
+    width:350px;
+    background-color: #e5e5e5;
+    border-radius:30px;
 
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+}
+
+.caixa-alugado{
+    display: flex;
+    height:200px;
+    width:350px;
+    background-color: #e5e5e5;
+    border-radius:30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.editar-perfil{
+    display: flex;
+    height:25px;
+    width:200px;
+    border-radius:30px;
+
+    justify-content: center;
+    align-items: center;
 }
