@@ -16,12 +16,10 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/Login">
-              <Login />
-            </Route>
-            <Route path="/">
-              <Reunioes />
-            </Route>
+            <Route path="/" exact component={Home} />
+            <Route path="/perfil" component={Perfil} />
+            <Route path="/reunioes" component={Reunioes} />
+            <Route path="/login" component={Login} />
           </Switch>
         </div>
       </Router>

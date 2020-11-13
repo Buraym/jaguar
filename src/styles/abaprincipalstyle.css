@@ -5,31 +5,29 @@
 .painel_preto{
     display:flex;
 	width:250px;
-    height: 636px;
+    height:stretch;
     background-color:#000000;
     border-radius:18px;
-    transition-duration: 4s;
+    transition-duration: 2s;
     
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-}
-
-.painel_preto:onclick {
-    width:100px;
+    flex-direction: row;
 }
 
 .botoes_paginas{
     display:flex;
     height:600px;
+
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    flex-grow:2;
 }
 
 .b_inicial{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
     font-size:18pt;
@@ -50,7 +48,7 @@
 
 .b_perfil{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;
@@ -64,7 +62,7 @@
 
 .b_reunioes{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;
@@ -78,7 +76,7 @@
 
 .b_eventos{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;
@@ -92,7 +90,7 @@
 
 .b_servicos{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;
@@ -106,7 +104,7 @@
 
 .b_alugados{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;
@@ -120,7 +118,7 @@
 
 .b_logout{
     display:flex;
-	width:200px;
+	width:180px;
 	height:40px;
 	border-radius:20px;
 	font-size:18pt;

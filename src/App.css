@@ -15,7 +15,7 @@ body {
 .Caixa{
 
   display:flex;
-  width:fill;
+  width:stretch;
   height: 700px;
   flex-direction: column-reverse;
   justify-content: space-around;
@@ -26,7 +26,7 @@ body {
 .caixa_logo{
 
   display:flex;
-  width:fill;
+  width:stretch;
   justify-content: center;
   align-content: center;
 

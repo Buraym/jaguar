@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/campologinsenhastyle.css';
-import {
-    BrowserRouter as Router,
-    Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import CaixaInput from './CaixaInput';
 import ImagemBotao from '../assets/icons/outline_check_box_outline_blank_black_18dp.png';
 

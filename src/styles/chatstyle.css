@@ -1,0 +1,43 @@
+.campo-chat{
+    display: flex;
+    width:80%;
+    height:auto;
+    padding:10px;
+    background-color:#FFF;
+    border-radius: 30px;
+    margin:10px;
+
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: column;
+}
+
+.campo-pessoa{
+    display: flex;
+    width: auto;
+    height: auto;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.foto{
+    width: 50px;
+    height:50px;
+    border-radius: 30px;
+}
+
+.campo-texto{
+    display:flex;
+    overflow-wrap: break-word;
+    padding:10px;
+
+    justify-content: center;
+    align-items:space-around;
+
+}
+
+.texto{
+
+}
