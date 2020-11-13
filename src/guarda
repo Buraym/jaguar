@@ -1,0 +1,30 @@
+import React from 'react'
+import './segunda.css'
+import ReactDOM from 'react-dom'
+
+class Input extends React.Component {
+    constructor (){
+        super();
+        this.state = {
+            postar:""
+        };
+        this.onChange = (evento) => {
+            this.setState ({postar: evento.target.value});
+        };
+    }
+
+    render(){
+        return(
+            <div>
+                Postar: <input postar="postar" value={this.state.postar} onChange={this.onChange} type="text" />
+            </div>
+        )
+    }
+
+}
+
+ReactDOM.render(
+    <Input />,
+    document.getElementById('root')
+
+);

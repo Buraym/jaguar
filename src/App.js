@@ -1,25 +1,13 @@
-import './App.css';
-import CampoLoginSenha from './components/CampoLoginSenha';
+import './index.css'
 
-function App() {
-
-  return (
-
-    <body>
-
-        <div className="caixa_logo">
-
-          <h1 className="logo"> Jaguar </h1>
-
-        </div>
-
-        <CampoLoginSenha/>
+import React from 'react'
+import Header from './components/Header'
+import Comentario from './pages/Comentario'
 
 
-    </body>
-
-  );
-
-}
-
-export default App;
+function App (){
+    return ( 
+            <Header />
+        );
+    }
+    export default App;

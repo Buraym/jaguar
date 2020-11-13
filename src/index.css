@@ -1,13 +1,265 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+	background: #F0F8FF;
+		
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#wrap{
+	width: 960px;
+	margin: auto;
+	padding-top: 60px;
+	padding-left: 350px;
+
+}
+
+body h2{
+	
+	padding-left: 800px;
+	padding-top: 20px;
+	width: 50px;
+}
+
+
+
+body h1{
+	padding-left: 185px;
+
+}
+
+
+
+
+a{
+	
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+@-ms-viewport{
+	
+  width: device-width;
+  
+}
+
+*{
+	
+	font-family: 'Roboto';
+	
+}
+
+body{
+	
+	background-color:#E5E5E5;
+	
+}
+
+::-webkit-scrollbar-track {
+    background-color:#E5E5E5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+	border-radius:15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+	border-radius:10px;
+	border-color:#F48C06
+}
+
+#painel_minimizado{
+	position: absolute;
+	background-color:#000000;
+	width:80px;
+	height:900px;
+	float:left;
+	left:0px;
+	top:20px;
+	border-radius:18px;
+
+}
+
+#imagem_usuario_minimizado{
+	
+	position:absolute;
+	width:35px;
+	height:35px;
+	top:25px;
+	left:30px;
+	border-radius: 50px;
+	
+}
+
+#triangulo{
+	
+	position:absolute;
+	width:0;
+	height:0;
+	top:400px;
+	left:70px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 20px solid #F48C06;
+	
+}
+
+
+
+
+
+#busca{
+  position: absolute;
+  left: 800px;
+  top: 300px;
+  width: 400px;
+
+}
+
+#lupa{
+	position: absolute;
+	left: 1125px;
+	top: -137px;
+    width: 16px;
+    background-color:#FF4500;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#corta{
+	position: absolute;
+	left: -580px;
+	top: -30px;
+	width: 500px;
+	text-shadow: 2px 2px 2px #F0F8FF, -2px 2px 2px #F0F8FF, 2px -2px 2px #F0F8FF, -2px -2px 2px #F0F8FF;
+
+}
+
+#foice{
+	position: absolute;
+	left: -545px;
+	top: 550px;
+	width: 500px;
+	text-shadow: 2px 2px 2px #F0F8FF, -2px 2px 2px #F0F8FF, 2px -2px 2px #F0F8FF, -2px -2px 2px #F0F8FF;
+
+}
+
+
+
+#serra{
+	position: absolute;
+	left: -570px;
+	top: 145px;
+	width: 500px;
+	text-shadow: 2px 2px 2px #F0F8FF, -2px 2px 2px #F0F8FF, 2px -2px 2px #F0F8FF, -2px -2px 2px #F0F8FF;
+
+}
+
+#vaga{
+	position: absolute;
+	left: -575px;
+	top: 230px;
+	width: 500px;
+	text-shadow: 2px 2px 2px #F0F8FF, -2px 2px 2px #F0F8FF, 2px -2px 2px #F0F8FF, -2px -2px 2px #F0F8FF;
+
+}
+
+
+
+#serra1{
+	position: absolute;
+	width: 350px;
+	left: 120px;
+	top: 170px;
+	background-color:#ffffff;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+#vaga1{
+	position: absolute;
+	width: 350px;
+	left: 120px;
+	top: 255px;
+	background-color:#ffffff;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    
+
+
+}
+
+#foice1{
+	position: absolute;
+	width: 350px;
+	left: 120px;
+	top: 80px;
+	background-color:#ffffff;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+#corta1{
+	position: absolute;
+	width: 350px;
+	left: 120px;
+	top: -5px;
+	background-color:#ffffff;
+    border-radius: 10px;
+   padding-top: 30px;
+    text-align: center;
+    
+}
+
+
+#borda{
+  position: absolute;
+  left: 680px;
+  top: -60px;
+  width: 150px;
+  background-color: #F48C06;
+  padding: 165px;
+  margin: 20px;
+  border-radius: 15px;
+
+}
+
+#um{
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	width: 65px;
+	border-radius: 20px;
+
+}
+
+#dois{
+	position: absolute;
+	top: 96px;
+	left: 15px;
+	width: 60px;
+	border-radius: 20px;
+}
+
+
+#tres{
+	position: absolute;
+	top: 200px;
+	left: 15px;
+	width: 65px;
+	border-radius: 20px;
+}
+
+#quatro{
+	position: absolute;
+	top: 275px;
+	left: 15px;
+	width: 60px;
+	border-radius: 20px;
 }

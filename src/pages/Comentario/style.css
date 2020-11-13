@@ -1,0 +1,44 @@
+.segunda {
+    position: absolute;
+width: 800px;
+height: 55px;
+left: 220px;
+top: 201px;
+
+background: #F48C06;
+border-radius: 10px;
+border:none;
+outline: none;
+font-size: 22px;
+}
+.comentario {
+    position: absolute;
+width: 800px;
+height: 75px;
+left: 50px;
+top: 201px;
+color: black;
+font-size: 22px;
+}
+
+.comentario{
+    text-align: left;
+    position: absolute;
+width: 618px;
+height: 200px;
+left: 220px;
+top: 301px;
+background: #F48C06;
+border-radius: 10px;
+border:none;
+outline: none;
+font-size: 30px;
+}
+
+.insira{
+    position: absolute;
+    font-family: cursive;
+    top: 165px;
+    left: 225px;
+    color: black;
+}

@@ -1,16 +1,11 @@
-[
-    {
-        "nome": "index.html",
-        "funcao": "Login",
-        "javascript": "App.js",
-        "componentes": ["CampoLoginSenha.jsx", "CaixaInput.jsx"],
-        "estilos": ["index.css", "App.css", "CampoLoginSenha.css", "CaixaInput.css"]
-    },
-    {
-        "nome": "inicio_morador.html",
-        "funcao": "Portal da comunidade",
-        "javascript": "Inicio_morador.js",
-        "componentes": "AbaPrincipal.jsx",
-        "estilos": "AbaPrincipal.css"
+{
+    "tela_comunicados": {
+        "titulo": "Serviços da comunidade",
+        "adicionarPostagem": "Adicione uma postagem",
+        "campoPostagem": "Bom dia vizinhos, gostaria de solicitar que façam menos barulho depois das 23:00 horas na quadra de futsal, obrigado!",
+        "data":"Publicado no dia 30/09/2020",
+        "hora": "Postado as 16:23pm"
     }
-]
+    
+    
+}
