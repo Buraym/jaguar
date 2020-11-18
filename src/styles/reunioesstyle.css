@@ -6,6 +6,24 @@
     flex-direction: row;
 }
 
+::-webkit-scrollbar-track {
+    width: 10px;
+    background: #ffba08;
+	border-radius:15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background:#ffba08;
+	border-radius:15px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: white;
+	border-radius:15px;
+}
+
 .coluna-1{
     display: flex;
     width:stretch;
@@ -75,7 +93,7 @@
 	border-radius:30px;
 }
 
-.coluna2{
+.coluna2r{
     display: flex;
     width:20%;
     height:550px;
@@ -87,8 +105,20 @@
     flex-direction: column;
 }
 
+.caixa-titulo{
+    display:flex;
+    width:stretch;
+    height:30%;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
 .caixa-chat{
     display:flex;
+    overflow-y: scroll;
+    margin-right: 10px;
 
     flex-direction: column;
     flex-wrap: nowrap;
@@ -97,14 +127,41 @@
 .caixa-texto-input{
     display:flex;
     width:stretch;
-    height:stretch;
+    height:35%;
     outline: none;
     background-color:  #e5e5e5;
     border-radius: 30px;
     border:none;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
     padding:10px;
     
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.input-texto{
+    display:flex;
+    width:stretch;
+    height:stretch;
+    background-color:  #e5e5e5;
+    border-radius: 30px;
+    border:none;
+    overflow-wrap: break-word;
+    margin: 5px;
+    outline: none;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.submit{
+    display:flex;
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+
+    justify-content: center;
+    align-content: center;
 }
