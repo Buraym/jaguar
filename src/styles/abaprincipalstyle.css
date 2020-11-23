@@ -5,24 +5,22 @@
 .painel_preto{
     display:flex;
 	width:250px;
-    height:stretch;
+    height:640px;;
     background-color:#000000;
     border-radius:18px;
     transition-duration: 2s;
     
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .botoes_paginas{
     display:flex;
-    height:600px;
-
+    height:stretch;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    flex-grow:2;
 }
 
 .b_inicial{
@@ -102,7 +100,7 @@
     flex-direction: row;
 }
 
-.b_alugados{
+.b_classificados{
     display:flex;
 	width:180px;
 	height:40px;

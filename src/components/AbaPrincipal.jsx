@@ -41,18 +41,17 @@ function AbaPrincipal(props) {
                         <img className="icone_servicos" src={ImagemBotaoServiços} alt="Botao da pagina Serviços"/>
                         <label className="servicos" > Serviços </label>
                     </button>
-                    <button className="b_alugados" > 
-                        <img className="icone_alugados" src={ImagemBotaoAlugados} alt="Botao da pagina Alugados"/>   
-                        <label className="alugados" > Alugados </label>
+                    <button className="b_classificados" > 
+                        <img className="icone_classificados" src={ImagemBotaoAlugados} alt="Botao da pagina Alugados"/>   
+                        <label className="classificados" > Classificados </label>
                     </button>
                     <Link to="/login">
-                        <button className="b_logout" >   
-                            <img className="icone_logout" src={ImagemBotaoLogout} alt="Botao de Logout"/>   
-                            <label className="logout" > Logout </label>
-                        </button>
+                    <button className="b_logout" >   
+                        <img className="icone_logout" src={ImagemBotaoLogout} alt="Botao de Logout"/>   
+                        <label className="logout" > Logout </label>
+                    </button>
                     </Link>
                 </div>
-                <button className="triangulo"></button>
             </div>
         </>  
     );

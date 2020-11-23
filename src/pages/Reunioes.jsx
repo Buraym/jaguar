@@ -35,9 +35,6 @@ function Reunioes(){
                     <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
                 </div>
                 <div className="caixa-chat">
-                    <Chat pessoa="Vassi" texto="Olá pessoal, aqui é a Vassi" />
-                    <Chat pessoa="Mariana" texto="Olá Vassi !!!" />
-                    <Chat pessoa="Helena" texto="Olá, eu vi que hoje você ira por em pauta a sobre a regra do som alto á noite, não é mesmo ?" />
                 </div>
                 <div className="caixa-texto-input">
                     <input type="text" className="input-texto" />

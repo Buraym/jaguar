@@ -27,7 +27,8 @@
 .coluna-1{
     display: flex;
     width:stretch;
-
+    height:stretch;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -35,8 +36,8 @@
 
 .painel-apresentador{
     display:flex;
-    height: 425px;
-    width:600px;
+    width:500px;
+    height:stretch;
     background-color:#EDF2F4;
     border-radius:30px;
 
