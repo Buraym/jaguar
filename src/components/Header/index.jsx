@@ -3,7 +3,6 @@ import Menu from '../Menu/index'
 import '../Header/header.css'
 import Barra from '../Barra'
 import Opcoes from '../Opcoes'
-import Segunda from '../../Segunda'
 
 function Header(){
     return (
@@ -11,7 +10,6 @@ function Header(){
             <Menu />
             <Barra />
             <Opcoes />
-            <Segunda />
         </div>
     );
 }

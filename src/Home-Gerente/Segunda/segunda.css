@@ -1,3 +1,13 @@
+.painel{
+    display: flex;
+    flex-shrink: initial;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    color: white;
+    
+
+}
+
 .segunda {
     position: absolute;
 width: 800px;
@@ -11,28 +21,19 @@ border:none;
 outline: none;
 font-size: 22px;
 }
-.comentario {
-    position: absolute;
-width: 800px;
-height: 75px;
-left: 50px;
-top: 201px;
-color: black;
-font-size: 22px;
-}
 
 .comentario{
-    text-align: left;
-    position: absolute;
-width: 618px;
-height: 200px;
+position: absolute;
+width: 620px;
+height: 55px;
 left: 220px;
 top: 301px;
+text-align: start;
 background: #F48C06;
 border-radius: 10px;
 border:none;
 outline: none;
-font-size: 30px;
+font-size: 22px;
 }
 
 .insira{

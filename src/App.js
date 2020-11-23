@@ -2,12 +2,16 @@ import './index.css'
 
 import React from 'react'
 import Header from './components/Header'
-import Comentario from './pages/Comentario'
+import Segunda from './Home-Gerente/Segunda'
 
 
 function App (){
     return ( 
-            <Header />
+            <div>
+                <Header />
+                <Segunda />
+            </div>
+                
         );
     }
     export default App;
