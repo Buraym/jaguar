@@ -3,38 +3,3 @@
   width: device-width;
   
 }
-
-body {
-
-  display:flex;
-  padding:0;
-	margin:0;
-
-}
-
-.Caixa{
-
-  display:flex;
-  width:stretch;
-  height: 700px;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  border-color: chartreuse;
-
-}
-
-.caixa_logo{
-
-  display:flex;
-  width:stretch;
-  justify-content: center;
-  align-content: center;
-
-}
-
-.logo{
-	
-  font-family: 'Pacifico';
-  font-size:80px;
-	
-}

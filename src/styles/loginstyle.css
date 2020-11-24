@@ -1,0 +1,38 @@
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.fundo{
+    display:flex;
+    width: stretch;
+    height:stretch;
+
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.caixalogo{
+
+    display:flex;
+    width:stretch;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+  
+}
+  
+.logo{
+
+    font-family: 'Pacifico';
+    font-size:80px;
+      
+}

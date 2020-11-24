@@ -1,18 +1,19 @@
 import React from 'react';
-import '../styles/perfilstyle.css';
+import style from '../styles/perfilstyle.css';
 import { Link } from "react-router-dom";
 import AbaPrincipal from '../components/AbaPrincipal.jsx';
 import ImagemPerfilExemplo from '../assets/imagem perfil exemplo.jpg';
+import SideBar from '../components/SideBar';
 
 function Perfil(){
 
     return(
 
-        <div className="tela">
+        <div className="tela-perfil">
             <div classname="aba">
-                <AbaPrincipal />
+                <SideBar />
             </div>
-            <div className="tela-perfil">
+            <div className="conteudo-perfil">
                 <div className="coluna1">
                     <img className="foto-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
                     <div className="dados-perfil">

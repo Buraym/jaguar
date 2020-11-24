@@ -1,21 +1,22 @@
 import React from 'react';
+import loginstyle from '../styles/loginstyle.css';
 import CampoLoginSenha from '../components/CampoLoginSenha';
 
 function Login() {
 
     return (
 
-        <>
+        <div className="fundo">
 
-            <div className="caixa_logo">
+            <div className="caixalogo">
 
-                <h1 className="logo"> Jaguar </h1>
+                <label className="logo"> Jaguar </label>
 
             </div>
 
             <CampoLoginSenha/>
             
-        </>  
+        </div>  
       
     );
 

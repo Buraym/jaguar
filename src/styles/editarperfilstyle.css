@@ -1,4 +1,4 @@
-.tela{
+.tela-editar-perfil{
     display: flex;
 
     justify-content: space-evenly;
@@ -6,7 +6,7 @@
     flex-direction: row;
 }
 
-.tela-editar-perfil{
+.conteudo-editar-perfil{
     display:flex;
     width:stretch;
     height:stretch;
@@ -24,7 +24,7 @@
     flex-direction: row;
 }
 
-.coluna1{
+.coluna1ep{
     display: flex;
     height:600px;
     width: 30%;
@@ -73,8 +73,10 @@
     outline:none;
 }
 
-.camada2{
+.camada2ep{
     display: flex;
+    width: stretch;
+    height:stretch;
 
     justify-content: center;
     align-items: center;

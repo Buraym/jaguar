@@ -1,4 +1,4 @@
-.tela{
+.tela-perfil{
     display: flex;
 
     justify-content: space-evenly;
@@ -6,7 +6,7 @@
     flex-direction: row;
 }
 
-.tela-perfil{
+.conteudo-perfil{
     display:flex;
     width:stretch;
     height:stretch;

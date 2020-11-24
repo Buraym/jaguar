@@ -1,4 +1,4 @@
-.tela{
+.tela-reunioes{
     display: flex;
     padding:10px;
 
@@ -24,20 +24,20 @@
 	border-radius:15px;
 }
 
-.coluna-1{
+.coluna1r{
     display: flex;
     width:stretch;
-    height:stretch;
+    height:600px;
     
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 
 .painel-apresentador{
     display:flex;
-    width:500px;
-    height:stretch;
+    width:600px;
+    height:400px;
     background-color:#EDF2F4;
     border-radius:30px;
 

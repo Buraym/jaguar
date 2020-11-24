@@ -3,16 +3,17 @@ import '../styles/editarperfilstyle.css';
 import { Link } from "react-router-dom";
 import AbaPrincipal from '../components/AbaPrincipal.jsx';
 import ImagemPerfilExemplo from '../assets/imagem perfil exemplo.jpg';
+import SideBar from '../components/SideBar';
 
 function EditarPerfil(){
 
     return(
 
-        <div className="tela">
+        <div className="tela-editar-perfil">
             <div classname="aba">
-                <AbaPrincipal />
+                <SideBar />
             </div>
-            <div className="tela-editar-perfil">
+            <div className="conteudo-editar-perfil">
                 <div className="camada1">
                     <div className="coluna1">
                         <img className="foto-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
