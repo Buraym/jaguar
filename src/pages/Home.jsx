@@ -1,7 +1,8 @@
 import React from 'react';
-import style from '../styles/home.css';
+import '../styles/home.css';
 import SideBar from '../components/SideBar';
-import Notificacao from '../components/Notificacao';
+import CardEvento from '../components/CardEvento';
+import Foto from '../assets/foto evento adoção.jpg';
 
 function Home() {
 
@@ -11,7 +12,16 @@ function Home() {
                 <SideBar />
             </div>
             <div className="conteudo-pagina">
-                <Notificacao />
+                <CardEvento
+                    imagem={Foto}
+                    fallback="Adoção de pets"
+                    nome="Feira de Adoção de animais de estimação"
+                    descricao={ null }
+                    local="Avenida Silvio Américo Sasdeli, 1234, perto do Subway"
+                    dia="27"
+                    mes="12"
+                    hora="18:30"
+                />
             </div>
         </div>  
     );

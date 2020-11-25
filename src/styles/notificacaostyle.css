@@ -1,0 +1,33 @@
+.caixa-notificacao{
+    display:flex;
+    width:850px;
+    height:400px;
+    background-color:orange;
+    border-radius: 30px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-titulo{
+    width:85%;
+    height: 7.5%;
+    outline:none;
+    border-radius: 20px;
+}
+
+.input-descricao{
+    width:85%;
+    height:70%;
+    outline:none;
+    border-radius: 20px;
+}
+
+.envio{
+    width:75%;
+    height:10%;
+    outline:none;
+    border-radius: 20px;
+}
+

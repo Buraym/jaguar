@@ -1,7 +1,6 @@
 import React from 'react';
-import style from '../styles/perfilstyle.css';
+import '../styles/perfilstyle.css';
 import { Link } from "react-router-dom";
-import AbaPrincipal from '../components/AbaPrincipal.jsx';
 import ImagemPerfilExemplo from '../assets/imagem perfil exemplo.jpg';
 import SideBar from '../components/SideBar';
 
@@ -9,8 +8,8 @@ function Perfil(){
 
     return(
 
-        <div className="tela-perfil">
-            <div classname="aba">
+        <div className="telaperfil">
+            <div className="aba">
                 <SideBar />
             </div>
             <div className="conteudo-perfil">

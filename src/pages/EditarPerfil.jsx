@@ -23,7 +23,7 @@ function EditarPerfil(){
                                 <label className="idade"> Idade: </label>
                                 <label className="cargo"> Cargo: </label>
                             </div>
-                            <div className="caixa-input">
+                            <div className="caixa-input-editar">
                                 <input type="text" className="input" />
                                 <input type="text" className="input" />
                                 <input type="text" className="input" />
@@ -39,7 +39,7 @@ function EditarPerfil(){
                         </div>
                     </div>
                 </div>
-                <div className="camada2">
+                <div className="camada2ep">
                     <Link to="/perfil">
                         <button className="salvar-perfil"> Salvar Alterações </button>
                     </Link>

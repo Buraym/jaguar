@@ -1,6 +1,5 @@
 import React from 'react';
-import style from '../styles/reunioesstyle.css';
-import AbaPrincipal from '../components/AbaPrincipal.jsx';
+import '../styles/reunioesstyle.css';
 import FotoSindico from '../assets/foto sindico.jpg';
 import IconeMicrofone from '../assets/icons/baseline_mic_black_18dp.png';
 import IconeCamera from '../assets/icons/baseline_videocam_black_18dp.png';
@@ -11,7 +10,7 @@ import SideBar from '../components/SideBar';
 function Reunioes(){
 
     return(
-        <div className="tela-reunioes">
+        <div className="telareunioes">
             <div>
                 <SideBar />
             </div>
@@ -32,16 +31,18 @@ function Reunioes(){
                 </div>
             </div>
             <div className="coluna2r">
-                <div className="caixa-titulo">
-                    <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
-                </div>
-                <div className="caixa-chat">
-                </div>
-                <div className="caixa-texto-input">
-                    <input type="text" className="input-texto" />
-                    <button className="submit" src={Postar} >
-                        <img src={Postar} alt="icone do botao de postar"/>
-                    </button>
+                <div className="caixa-input">
+                    <div className="caixa-titulo">
+                        <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
+                    </div>
+                    <div className="caixa-chat">
+                    </div>
+                    <div className="caixa-texto-input">
+                        <input type="text" className="input-texto" />
+                        <button className="submit" src={Postar} >
+                            <img src={Postar} alt="icone do botao de postar"/>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

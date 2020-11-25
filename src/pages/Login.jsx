@@ -1,5 +1,5 @@
 import React from 'react';
-import loginstyle from '../styles/loginstyle.css';
+import style from '../styles/loginstyle.css';
 import CampoLoginSenha from '../components/CampoLoginSenha';
 
 function Login() {
