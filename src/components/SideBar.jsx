@@ -25,6 +25,10 @@ function SideBar(){
 
             <label className="classificados" > Classificados </label>
 
+            <label className="funcionarios" > Funcionarios </label>
+
+            <label className="contabilidade" > Contabilidade </label>
+
             <Link to="/login">
                 <label className="logout" > Logout </label>
             </Link>
