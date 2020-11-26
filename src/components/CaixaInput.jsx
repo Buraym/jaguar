@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/CaixaInput.css';
+import '../styles/caixainputstyle.css';
 
 function CaixaInput(props) {
 

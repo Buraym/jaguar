@@ -7,7 +7,7 @@
 .Caixa{
 
     display:flex;
-    width:fill;
+    width:stretch;
     height:75px;
     flex-direction: row;
     justify-content: center;

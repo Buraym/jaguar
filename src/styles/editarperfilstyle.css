@@ -1,0 +1,94 @@
+.tela-editar-perfil{
+    display: flex;
+
+    justify-content: space-evenly;
+
+    flex-direction: row;
+}
+
+.conteudo-editar-perfil{
+    display:flex;
+    width:stretch;
+    height:stretch;
+
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+
+.camada1{
+    display:flex;
+    width:stretch;
+    height:stretch;
+
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+.coluna1ep{
+    display: flex;
+    height:600px;
+    width: 30%;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.foto-perfil{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+}
+
+.dados{
+    display: flex;
+    height:100px;
+    width: 300px;
+
+    justify-content: center;
+    align-items: left;
+    flex-direction: row;
+}
+
+.caixa-identidade{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.caixa-input-editar{
+    display: flex;
+    padding-left: 10px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.input{
+    width: stretch;
+    height: min-content;
+    border-radius: 10px;
+    outline:none;
+}
+
+.camada2ep{
+    display: flex;
+    width: stretch;
+    height:stretch;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.salvar-perfil{
+    display: flex;
+    height:35px;
+    width:225px;
+    border-radius:30px;
+    outline:none;
+
+    justify-content: center;
+    align-items: center;
+}
