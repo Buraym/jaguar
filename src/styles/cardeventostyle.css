@@ -1,20 +1,44 @@
 .card-evento{
     display:flex;
-    width:275px;
-    height:445px;
+    width:300px;
+    height:475px;
     background-color: greenyellow;
     border-radius:30px;
+    margin:10px;
 
     justify-content: space-between;
     align-items: center;
     flex-direction:column;
 }
 
-.card-foto{
+.face capa{
+    display:flex;
     width:100%;
-    height:60%;
+    height:400px;
+    transition: 0.3s ease-in;
+    z-index: 1;
+
+    justify-content: center;
+}
+
+.caixa-cardfoto{
+    display:flex;
+    width:100%;
+    height: 60%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card-foto{
+    width:90%;
+    height:80%;
     border-radius:30px 30px 0px 0px;
-    z-index: 2;
+    transition:0.1s ease-in
+}
+
+.face conteudo{
+
 }
 
 .card-nome{
