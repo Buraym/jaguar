@@ -1,3 +1,17 @@
+@keyframes inicio{    
+    40%{
+        opacity:1;
+    }
+
+    60%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.0;
+    }
+}
+
 .conteudo-pagina{
     display: flex;
     width:stretch;
@@ -7,4 +21,24 @@
     align-items: center;
     flex-direction: column;
 
+}
+
+.painel-animacao{
+    display:flex;
+    position: absolute;
+    animation: inicio 4s;
+    width:300px;
+    height:300px;
+    transition:3s ease-in-out 5s;
+    opacity:0.0;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-usuario{
+    width:175px;
+    height:175px;
+    border-radius:90px;
 }
