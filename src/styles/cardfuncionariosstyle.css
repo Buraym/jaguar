@@ -1,0 +1,94 @@
+.cardfuncionario{
+    display:flex;
+    width:225px;
+    height:400px;
+    background-color: #f1faee;
+    border-radius: 30px;
+    margin: 60px;
+    transition:300ms ease-in-out;
+
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cardfuncionario:hover{
+    width:250px;
+    height:430px;
+}
+
+.cardfuncionario:hover .funcionario-foto{
+    transform: scaleY(1.1) scaleX(1.1);
+}
+
+.funcionario-fundo{
+    width:100%;
+    height:40%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    border-radius: 30px 30px 0px 30px;
+}
+
+.funcionario-foto{
+    width:120px;
+    height:120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -40%;
+    z-index: 1;
+    transition: 300ms ease-in-out;
+}
+
+.caixa-informacoes{
+    display:flex;
+    width: 100%;
+    height:30%;
+
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa-acoes{
+    display:flex;
+    width: 100%;
+    height:5rem;
+
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.atualizar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background-color: #f48c06;
+}
+
+.icone-botao-acao{
+    opacity:0.5;
+}
+
+.escalas{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background-color: #f48c06;
+    color:white;
+}
+
+.deletar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:none;
+    outline:none;
+    background-color: #f48c06;
+}

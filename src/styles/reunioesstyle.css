@@ -36,7 +36,7 @@
 .painel-apresentador{
     display:flex;
     width:75%;
-    height:75%;
+    height:85%;
     background-color:#EDF2F4;
     border-radius:30px;
 
@@ -70,7 +70,7 @@
 
 .painel-botoes{
     display:flex;
-    height:20%;
+    height:10%;
     width:50%;
 
     justify-content:space-around;
