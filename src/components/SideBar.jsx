@@ -7,7 +7,7 @@ function SideBar(){
     return(
         <Menu>
 
-            <Link to="/">
+            <Link to="/home">
                 <label className="inicio" > Inicio </label>
             </Link>
 
@@ -21,17 +21,21 @@ function SideBar(){
 
             <label className="eventos" > Eventos </label>
 
+            <Link to="/servicos">
             <label className="servicos" > Serviços </label>
+            </Link>
 
             <label className="classificados" > Classificados </label>
 
             <Link to="/funcionarios">
                 <label className="funcionarios" > Funcionarios </label>
             </Link>
-            
-            <label className="contabilidade" > Contabilidade </label>
 
-            <Link to="/login">
+            <Link to="/contabilidade">
+            <label className="contabilidade" > Contabilidade </label>
+            </Link>
+
+            <Link to="/">
                 <label className="logout" > Logout </label>
             </Link>
         </Menu>

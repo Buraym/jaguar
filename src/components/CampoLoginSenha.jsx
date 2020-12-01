@@ -19,7 +19,7 @@ function CampoLoginSenha() {
                 <label className="lembrar"> Esqueceu sua senha ? Não tem cadastro </label>
             </div>
             <div className="Caixa_botao">
-                <Link to="/">
+                <Link to="/home">
                     <button className="botao_entrar"> Entrar </button>
                 </Link>
             </div>

@@ -1,9 +1,16 @@
 import React from 'react';
-import '../styles/conabilidadestyle.css';
+import '../styles/contabilidadestyle.css';
+import SideBar from '../components/SideBar';
 
 function Contabilidade(){
     return(
-        <div>
+        <div className="tela-contabilidade">
+            <div className="aba">
+                <SideBar />
+            </div>
+            <div className="conteudo-contabilidade">
+
+            </div>
         </div>
     );
 }

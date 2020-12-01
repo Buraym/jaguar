@@ -5,10 +5,20 @@
     background-color: #f1faee;
     border-radius: 30px;
     margin: 60px;
+    transition:300ms ease-in-out;
 
     align-items: center;
     align-content: center;
     flex-direction: column;
+}
+
+.cardfuncionario:hover{
+    width:250px;
+    height:430px;
+}
+
+.cardfuncionario:hover .funcionario-foto{
+    transform: scaleY(1.1) scaleX(1.1);
 }
 
 .funcionario-fundo{
@@ -26,6 +36,7 @@
     border-radius: 50%;
     margin-top: -40%;
     z-index: 1;
+    transition: 300ms ease-in-out;
 }
 
 .caixa-informacoes{
@@ -37,22 +48,6 @@
     align-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.funcionario-nome{
-
-}
-
-.funcionario-cargo{
-
-}
-
-.funcionario-escala{
-
-}
-
-.funcionario-salario{
-
 }
 
 .caixa-acoes{
