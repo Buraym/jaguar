@@ -1,0 +1,30 @@
+.tela-funcionarios{
+    padding:0;
+    margin:0;
+
+}
+
+.conteudo-funcionarios{
+    display:flex;
+    width:100%;
+    height:100%;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+
+}
+
+.secao-cards{
+    display:flex;
+    width:100%;
+    height:30rem;
+
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
