@@ -12,6 +12,7 @@ import Reunioes from './pages/Reunioes';
 import Servicos from './pages/Servicos';
 import Funcionarios from './pages/Funcionarios';
 import Contabilidade from './pages/Contabilidade';
+import PublicarAvisos from './pages/PublicarAvisos'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/servicos" component={Servicos} />
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/contabilidade" component={Contabilidade} />
+            <Route path="/publicar-avisos" component={PublicarAvisos} />
             <Route path="/" component={Login} />
           </Switch>
         </div>

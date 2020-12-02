@@ -1,0 +1,49 @@
+.painel{
+    display: flex;
+    flex-shrink: initial;
+    flex-direction: row;
+    overflow-wrap: break-word;
+    color: black;
+    
+    
+
+}
+
+.segunda {
+    position: absolute;
+width: 800px;
+height: 55px;
+left: 220px;
+top: 201px;
+
+background: #F48C06;
+border-radius: 10px;
+border:none;
+outline: none;
+font-size: 22px;
+padding: 10px;
+}
+
+.comentario{
+position: absolute;
+width: 800px;
+height: 255px;
+left: 220px;
+top: 301px;
+background: #F48C06;
+border-radius: 10px;
+border:none;
+outline: none;
+font-size: 22px;
+justify-content: flex-start;
+padding: 10px;
+}
+
+.insira{
+    position: absolute;
+    font-family: cursive;
+    top: 165px;
+    left: 225px;
+    color: black;
+}
+
