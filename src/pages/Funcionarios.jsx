@@ -9,8 +9,8 @@ import FotoExemploFuncionario3 from '../assets/foto funcionario exemplo 3.jpg';
 import FotoExemploFuncionario4 from '../assets/foto funcionario exemplo 4.jpg';
 import FotoExemploFuncionario5 from '../assets/foto funcionario exemplo 5.jpg';
 import FotoExemploFuncionario6 from '../assets/foto funcionario exemplo 6.jpg';
-import PerfilAdicionar from '../assets/icons/baseline_account_circle_black_48dp.png';
-import BotaoAdicionar from '../assets/icons/baseline_person_add_black_18dp.png';
+import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
+import PersonAddRoundedIcon from '@material-ui/icons/PersonAddRounded';
 
 function Funcionarios(){
 
@@ -30,10 +30,10 @@ function Funcionarios(){
                     <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome="Suzana Pires" cargo="Porteira" escala="Noturno" salario="3500"/>          
                     <div className="cardfuncionario">
                         <div className="funcionario-fundo-adicionar"></div>
-                        <img className="funcionario-foto" src={PerfilAdicionar} alt="foto de fundo" />
+                            <AccountCircleRoundedIcon style={{ fontSize: 60 }} />
                         <div className="caixa-acoes">
                             <button className="adicionar">
-                                <img className="icone-botao-acao" src={BotaoAdicionar} alt="botao atualizar" />
+                                <PersonAddRoundedIcon />
                             </button>
                         </div>
                     </div>

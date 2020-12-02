@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/cardfuncionariosstyle.css';
-import Atualizar from '../assets/icons/baseline_refresh_black_18dp.png';
-import Escalas from '../assets/icons/baseline_hourglass_full_black_18dp.png';
-import Deletar from '../assets/icons/baseline_delete_forever_black_18dp.png';
+import RefreshIcon from '@material-ui/icons/Refresh';
+import HourglassFullIcon from '@material-ui/icons/HourglassFull';
+import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 function CardFuncionario(props){
 
@@ -17,13 +17,13 @@ function CardFuncionario(props){
             </div>
             <div className="caixa-acoes">
                 <button className="atualizar">
-                    <img className="icone-botao-acao" src={Atualizar} alt="botao atualizar" />
+                    <HourglassFullIcon color="action" />
                 </button>
                 <button className="escalas">
-                    <img className="icone-botao-acao" src={Escalas} alt="botao escalas" />
+                    <RefreshIcon color="action" />
                 </button>
                 <button className="deletar">
-                    <img className="icone-botao-acao" src={Deletar} alt="botao deletar" />
+                    <DeleteForeverIcon color="action" />
                 </button>
             </div>
         </div>
