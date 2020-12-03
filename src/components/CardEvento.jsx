@@ -11,13 +11,11 @@ function CardEvento(props) {
     return(
         <div className="card-evento">
 
-            <div className="face capa">
-                <div className="caixa-cardfoto">
-                    <img className="card-foto" src={props.imagem} alt={props.fallback} />
-                </div>
+            <div className="face-capa">
+                <img className="card-foto" src={props.imagem} alt={props.fallback} />
             </div>
 
-            <div className="face conteudo">
+            <div className="face-conteudo">
                 <div className="card-nome">
                     <label className="nome"> {props.nome} </label>
                 </div>

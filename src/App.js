@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Perfil from './pages/Perfil';
 import EditarPerfil from './pages/EditarPerfil';
 import Reunioes from './pages/Reunioes';
+import Eventos from './pages/Eventos';
 import Servicos from './pages/Servicos';
 import Funcionarios from './pages/Funcionarios';
 import Contabilidade from './pages/Contabilidade';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/perfil" component={Perfil} />
             <Route path="/editar_perfil" component={EditarPerfil} />
             <Route path="/reunioes" component={Reunioes} />
+            <Route path="/eventos" component={Eventos} />
             <Route path="/servicos" component={Servicos} />
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/contabilidade" component={Contabilidade} />

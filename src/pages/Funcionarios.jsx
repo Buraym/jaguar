@@ -27,6 +27,12 @@ function Funcionarios(){
                     <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario3} nome="Maria Helena" cargo="Gerente" escala="Noturno" salario="3500"/>
                     <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome="Otavio Sandiego" cargo="Socio" escala="Diurno" salario="7000"/>
                     <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome="Felipe Chaves" cargo="Arquiteto" escala="Diurno" salario="3000"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome="Suzana Pires" cargo="Porteira" escala="Noturno" salario="3500"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario} nome="Samantha" cargo="Sindica" escala="Diurno"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario2} nome="Sergio Cabral" cargo="Contabilidade" escala="Estagiario" salario="3000"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario3} nome="Maria Helena" cargo="Gerente" escala="Noturno" salario="3500"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome="Otavio Sandiego" cargo="Socio" escala="Diurno" salario="7000"/>
+                    <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome="Felipe Chaves" cargo="Arquiteto" escala="Diurno" salario="3000"/>
                     <CardFuncionario fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome="Suzana Pires" cargo="Porteira" escala="Noturno" salario="3500"/>          
                     <div className="cardfuncionario">
                         <div className="funcionario-fundo-adicionar"></div>
