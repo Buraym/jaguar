@@ -1,36 +1,52 @@
 .card-evento{
     display:flex;
     width: fit-content;
+    margin:30px;
 
     justify-content: space-between;
     align-items: center;
     flex-direction:column;
 }
 
+p{
+    color:white;
+}
+
+label{
+    color:white;
+}
+
 .face-capa{
     display:flex;
     width:300px;
     height:300px;
+    border-radius: 30px;
     transition: 0.5s ease-in-out;
     z-index: 1;
 
     justify-content: center;
 }
 
+.card-evento:hover .face-capa .card-foto{
+    border-radius: 30px;
+}
+
 .card-evento:hover .face-conteudo{
-    margin-top:0%;
+    margin-top:-20%;
 }
 
 .card-foto{
     width:100%;
     height:100%;
-    transition:0.1s ease-in;
+    border-radius: 30px 0px 30px 0px;
+    transition:0.3s ease-in;
 }
 
 .face-conteudo{
     display:flex;
     width:300px;
     height:300px;
+    border-radius: 30px;
     background-color: #e85d04;
     transition: 0.3s ease-in;
     margin-top:-100%;
