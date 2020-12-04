@@ -1,12 +1,11 @@
 .card-evento{
     display:flex;
     width: fit-content;
-    margin:30px;
+    margin:40px;
+
     transition: ease-in-out;
 
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
     flex-direction:column;
 }
 
@@ -23,6 +22,7 @@
     z-index: 1;
 
     justify-content: center;
+    flex-direction:column;
 }
 
 .card-evento:hover .face-capa .card-foto{
