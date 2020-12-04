@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/reunioesstyle.css';
 import FotoSindico from '../assets/foto sindico.jpg';
 import IconeMicrofone from '../assets/icons/baseline_mic_black_18dp.png';
@@ -8,6 +8,24 @@ import Chat from '../components/Chat';
 import SideBar from '../components/SideBar';
 
 function Reunioes(){
+    var [texto, setTexto] = useState("");
+    var isFocused = false;
+
+    var chat_texto = {
+        nome: "teste",
+        conteudo: texto
+    }
+
+    function handleSubmit(event){
+        chat_texto.conteudo = texto;
+        var isFocused = true;
+        console.log(isFocused);
+        event.preventDefault();
+    }
+
+    function handleChange(e){
+        setTexto(e.target.value);
+    }
 
     return(
         <div className="telareunioes">
@@ -36,12 +54,21 @@ function Reunioes(){
                         <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
                     </div>
                     <div className="caixa-chat">
+                        {
+                            isFocused ? (
+                                <Chat pessoa="teste" texto={ chat_texto.conteudo } />
+                            ) : (
+                                <div></div>
+                            )
+                        }
                     </div>
                     <div className="caixa-texto-input">
-                        <input type="text" className="input-texto" />
-                        <button className="submit" src={Postar} >
-                            <img src={Postar} alt="icone do botao de postar"/>
-                        </button>
+                        <form className="caixa-texto-input" onSubmit={handleSubmit}>
+                            <input type="text" className="input-texto" value={texto} onChange={handleChange}/>
+                            <button className="submit" src={Postar} >
+                                <img src={Postar} alt="icone do botao de postar"/>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

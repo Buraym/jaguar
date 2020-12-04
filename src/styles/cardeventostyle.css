@@ -2,24 +2,22 @@
     display:flex;
     width: fit-content;
     margin:30px;
+    transition: ease-in-out;
 
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     flex-direction:column;
 }
 
-p{
-    color:white;
-}
-
-label{
+.evento-text{
     color:white;
 }
 
 .face-capa{
     display:flex;
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     border-radius: 30px;
     transition: 0.5s ease-in-out;
     z-index: 1;
@@ -44,8 +42,8 @@ label{
 
 .face-conteudo{
     display:flex;
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     border-radius: 30px;
     background-color: #e85d04;
     transition: 0.3s ease-in;

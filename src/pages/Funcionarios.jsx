@@ -11,8 +11,22 @@ import FotoExemploFuncionario5 from '../assets/foto funcionario exemplo 5.jpg';
 import FotoExemploFuncionario6 from '../assets/foto funcionario exemplo 6.jpg';
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 import PersonAddRoundedIcon from '@material-ui/icons/PersonAddRounded';
+import data_funcionarios from "../data.json"
 
 function Funcionarios(){
+
+    const funcionarios = [data_funcionarios].map((funcionarios) => {
+        //console.log(funcionarios);
+        const funcionario1 = funcionarios[0];
+        const funcionario2 = funcionarios[1];
+        const funcionario3 = funcionarios[2];
+        const funcionario4 = funcionarios[3];
+        const funcionario5 = funcionarios[4];
+        const funcionario6 = funcionarios[5];
+        console.log(funcionario1.id + " " + funcionario1.nome);
+        //var teste = funcionario1.id + " " + funcionario1.nome;
+        //console.log(teste);
+    });
 
     return(
         <div className="tela-funcionarios">

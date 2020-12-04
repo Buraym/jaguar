@@ -11,3 +11,4 @@
 [1123/095345.612:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [1124/082843.553:ERROR:settings.cc(320)] Settings magic is not 1129342067
 [1124/083843.599:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1203/120210.568:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

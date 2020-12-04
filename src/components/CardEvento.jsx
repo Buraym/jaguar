@@ -17,17 +17,17 @@ function CardEvento(props) {
 
             <div className="face-conteudo">
                 <div className="card-nome">
-                    <label className="nome"> {props.nome} </label>
+                    <label className="evento-text"> {props.nome} </label>
                 </div>
                 <div className="card-descricao">
-                    <p className="descricao"> {props.descricao} </p>
+                    <p className="evento-text"> {props.descricao} </p>
                 </div>
                 <div className="card-local">
-                    <p className="local"> {props.local} </p>
+                    <p className="evento-text"> {props.local} </p>
                 </div>
                 <div className="card-data">
-                    <label className="data"> { data } </label>
-                    <label className="hora"> {props.hora} </label>
+                    <label className="evento-text"> { data } </label>
+                    <label className="evento-text"> {props.hora} </label>
                 </div>
             </div>
 

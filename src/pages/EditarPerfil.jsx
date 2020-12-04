@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/editarperfilstyle.css';
 import { Link } from "react-router-dom";
-import AbaPrincipal from '../components/AbaPrincipal.jsx';
 import ImagemPerfilExemplo from '../assets/imagem perfil exemplo.jpg';
 import SideBar from '../components/SideBar';
 
