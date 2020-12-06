@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import '../styles/reunioesstyle.css';
 import FotoSindico from '../assets/foto sindico.jpg';
-import IconeMicrofone from '../assets/icons/baseline_mic_black_18dp.png';
-import IconeCamera from '../assets/icons/baseline_videocam_black_18dp.png';
 import Postar from '../assets/icons/round_check_circle_outline_black_18dp.png';
+import MicIcon from '@material-ui/icons/Mic';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+
 import Chat from '../components/Chat';
 import SideBar from '../components/SideBar';
 
 function Reunioes(){
     var [texto, setTexto] = useState("");
-    var isFocused = false;
+    var isFocused = true;
 
     var chat_texto = {
         nome: "teste",
@@ -41,10 +43,10 @@ function Reunioes(){
                 </div>
                 <div className="painel-botoes">
                     <button className="microfone">
-                        <img src={IconeMicrofone} alt="icone do botao de microfone"/>
+                        <MicIcon />
                     </button>
                     <button className="camera">
-                        <img src={IconeCamera} alt="icone do botao de tela"/>
+                        <VideocamIcon />
                     </button>
                 </div>
             </div>
@@ -66,7 +68,7 @@ function Reunioes(){
                         <form className="caixa-texto-input" onSubmit={handleSubmit}>
                             <input type="text" className="input-texto" value={texto} onChange={handleChange}/>
                             <button className="submit" src={Postar} >
-                                <img src={Postar} alt="icone do botao de postar"/>
+                                <CheckCircleOutlineIcon />
                             </button>
                         </form>
                     </div>

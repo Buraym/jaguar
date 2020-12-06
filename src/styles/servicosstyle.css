@@ -1,0 +1,311 @@
+.conteudo-servicos{
+    display:flex;
+    width:100vw;
+    height:stretch;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.botao-servicos-jardinaria{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-jardinaria:hover{
+    border:3px solid #80b918;
+}
+
+.botao-servicos-jardinaria:hover .servico-texto-jardinaria {
+    color: #80b918;
+}
+
+.botao-servicos-jardinaria:hover .servico-icone-jardinaria {
+    color: #80b918;
+    opacity:1;
+}
+
+.servico-texto-jardinaria{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-jardinaria{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-encanamento{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-encanamento:hover{
+    border:3px solid #00296b;
+}
+
+.botao-servicos-encanamento:hover .servico-texto-encanamento {
+    color: #00296b;
+}
+
+.botao-servicos-encanamento:hover .servico-icone-encanamento {
+    color: #00296b;
+    opacity:1;
+}
+
+.servico-texto-encanamento{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-encanamento{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-empregada{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-empregada:hover{
+    border:3px solid #d90429;
+}
+
+.botao-servicos-empregada:hover .servico-texto-empregada {
+    color: #d90429;
+}
+
+.botao-servicos-empregada:hover .servico-icone-empregada {
+    color: #d90429;
+    opacity:1;
+}
+
+.servico-texto-empregada{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-empregada{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-baba{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-baba:hover{
+    border:3px solid #2a9d8f;
+}
+
+.botao-servicos-baba:hover .servico-texto-baba {
+    color: #2a9d8f;
+}
+
+.botao-servicos-baba:hover .servico-icone-baba {
+    color: #2a9d8f;
+    opacity:1;
+}
+
+.servico-texto-baba{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-baba{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-cozinheiro{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-cozinheiro:hover{
+    border:3px solid #f4a261;
+}
+
+.botao-servicos-cozinheiro:hover .servico-texto-cozinheiro {
+    color: #f4a261;
+}
+
+.botao-servicos-cozinheiro:hover .servico-icone-cozinheiro {
+    color: #f4a261;
+    opacity:1;
+}
+
+.servico-texto-cozinheiro{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-cozinheiro{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-procurar{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-procurar:hover{
+    border:3px solid #8d99ae;
+}
+
+.botao-servicos-procurar:hover .servico-texto-procurar {
+    color: #8d99ae;
+}
+
+.botao-servicos-procurar:hover .servico-icone-procurar {
+    color: #8d99ae;
+    opacity:1;
+}
+
+.servico-texto-procurar{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-procurar{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}
+
+.botao-servicos-sugerir{
+    display:flex;
+    width:900px;
+    height:125px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:10px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-servicos-sugerir:hover{
+    border:3px solid #F7FE72;
+}
+
+.botao-servicos-sugerir:hover .servico-texto-sugerir {
+    color: #F7FE72;
+}
+
+.botao-servicos-sugerir:hover .servico-icone-sugerir {
+    color: #F7FE72;
+    opacity:1;
+}
+
+.servico-texto-sugerir{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+}
+
+.servico-icone-sugerir{
+    opacity: 0;
+    transition: 0.7s ease-in-out;
+}

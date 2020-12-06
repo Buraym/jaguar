@@ -27,7 +27,9 @@ function SideBar(){
                 <label > Serviços </label>
             </Link>
 
-            <label className="classificados" > Classificados </label>
+            <Link to="/classificados">
+                <label className="classificados" > Classificados </label>
+            </Link>
 
             <Link to="/funcionarios">
                 <label > Funcionarios </label>

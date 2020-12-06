@@ -2,9 +2,16 @@ import React from 'react';
 import '../styles/loginstyle.css';
 import FotoLogo from '../assets/logo exemplo 4.png';
 import { Link } from "react-router-dom";
-import ImagemBotao from '../assets/icons/outline_check_box_outline_blank_black_18dp.png';
+import Checkbox from '@material-ui/core/Checkbox';
 
 function Login() {
+
+    const [checked, setChecked] = React.useState(false);
+
+    const handleChange = (event) => {
+        setChecked(event.target.checked);
+        console.log(checked);
+    };
 
     return (
 
@@ -28,10 +35,16 @@ function Login() {
                     </div>
                 </form>
                 <div className="Caixa_lembrar">
-                    <img className="caixa_selecao" src={ImagemBotao} alt="Caixa_de_seleção" ></img>
-                    <label className="lembrar"> Esqueceu sua senha ? Não tem cadastro </label>
+                    <Checkbox
+                        checked={checked}
+                        onChange={handleChange}
+                        color="default"
+                        inputProps={{ 'aria-label': 'secondary checkbox' }}
+                    />
+                    <label className="lembrar"> Lembrar usuario </label>
                 </div>
                 <div className="Caixa_botao">
+                    <label className="lembrar"> Esqueceu sua senha ? Não tem cadastro ? </label>
                     <Link to="/home">
                         <button className="botao_entrar">
                             <label className="entrar-label"> Entrar </label>

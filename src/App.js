@@ -11,6 +11,7 @@ import EditarPerfil from './pages/EditarPerfil';
 import Reunioes from './pages/Reunioes';
 import Eventos from './pages/Eventos';
 import Servicos from './pages/Servicos';
+import Classificados from './pages/Classificados';
 import Funcionarios from './pages/Funcionarios';
 import Contabilidade from './pages/Contabilidade';
 import PublicarAvisos from './pages/PublicarAvisos'
@@ -28,6 +29,7 @@ function App() {
             <Route path="/reunioes" component={Reunioes} />
             <Route path="/eventos" component={Eventos} />
             <Route path="/servicos" component={Servicos} />
+            <Route path="/classificados" component={Classificados} />
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/contabilidade" component={Contabilidade} />
             <Route path="/publicar-avisos" component={PublicarAvisos} />
