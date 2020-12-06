@@ -56,13 +56,22 @@ function Reunioes(){
                         <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
                     </div>
                     <div className="caixa-chat">
-                        {
-                            isFocused ? (
-                                <Chat pessoa="teste" texto={ chat_texto.conteudo } />
-                            ) : (
-                                <div></div>
-                            )
-                        }
+                        <Chat
+                            pessoa="Mariana"
+                            texto="Boa noite, sejam bem-vindos á reunião com os sindicos deste mês"
+                        />
+                        <Chat
+                            pessoa="Juliana"
+                            texto="Boa noite"
+                        />
+                        <Chat
+                            pessoa="Claúdia"
+                            texto="Boa noite !!! por acaso a pauta de som á meia noite será votada hoje ?"
+                        />
+                        <Chat
+                            pessoa="Mariana"
+                            texto="Sim Claúdia, essa será a quinta pauta dessa reunião"
+                        />
                     </div>
                     <div className="caixa-texto-input">
                         <form className="caixa-texto-input" onSubmit={handleSubmit}>

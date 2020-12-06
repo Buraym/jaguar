@@ -11,7 +11,9 @@ function Chat(props){
                 <label className="pessoa"> {props.pessoa} </label>
             </div>
             <div className="campo-texto">
-                <p> {props.texto} </p>
+                <p className="texto-chat-p">
+                    {props.texto}
+                </p>
             </div>
         </div>
     );

@@ -1,7 +1,12 @@
+*{
+    text-decoration: none;
+}
+
 .conteudo-servicos{
     display:flex;
     width:100vw;
     height:stretch;
+    text-decoration: none;
 
     justify-content: space-evenly;
     align-items: center;
@@ -11,7 +16,7 @@
 
 .botao-servicos-jardinaria{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -20,9 +25,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -45,16 +51,17 @@
     font-size:30px;
     color:  #e85d04;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .servico-icone-jardinaria{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-encanamento{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -63,9 +70,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -92,12 +100,12 @@
 
 .servico-icone-encanamento{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-empregada{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -106,9 +114,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -135,12 +144,12 @@
 
 .servico-icone-empregada{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-baba{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -149,9 +158,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -178,12 +188,12 @@
 
 .servico-icone-baba{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-cozinheiro{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -192,9 +202,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -221,12 +232,12 @@
 
 .servico-icone-cozinheiro{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-procurar{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -235,9 +246,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -264,12 +276,12 @@
 
 .servico-icone-procurar{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .botao-servicos-sugerir{
     display:flex;
-    width:900px;
+    width:750px;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -278,9 +290,10 @@
     outline:none;
     background-color: white;
     border:3px solid #e85d04;
-    border-radius:10px;
+    border-radius:30px;
     font-size:30px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 
     justify-content: space-between;
     align-items: center;
@@ -307,5 +320,5 @@
 
 .servico-icone-sugerir{
     opacity: 0;
-    transition: 0.7s ease-in-out;
+    transition: 1.5s ease-in-out;
 }

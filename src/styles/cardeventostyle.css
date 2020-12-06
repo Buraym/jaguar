@@ -1,7 +1,7 @@
 .card-evento{
     display:flex;
     width: fit-content;
-    margin:40px;
+    margin:20px;
 
     transition: ease-in-out;
 
