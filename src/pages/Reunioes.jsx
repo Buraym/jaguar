@@ -1,13 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/reunioesstyle.css';
 import FotoSindico from '../assets/foto sindico.jpg';
-import IconeMicrofone from '../assets/icons/baseline_mic_black_18dp.png';
-import IconeCamera from '../assets/icons/baseline_videocam_black_18dp.png';
 import Postar from '../assets/icons/round_check_circle_outline_black_18dp.png';
+import MicIcon from '@material-ui/icons/Mic';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+
 import Chat from '../components/Chat';
 import SideBar from '../components/SideBar';
 
 function Reunioes(){
+    var [texto, setTexto] = useState("");
+    var isFocused = true;
+
+    var chat_texto = {
+        nome: "teste",
+        conteudo: texto
+    }
+
+    function handleSubmit(event){
+        chat_texto.conteudo = texto;
+        var isFocused = true;
+        console.log(isFocused);
+        event.preventDefault();
+    }
+
+    function handleChange(e){
+        setTexto(e.target.value);
+    }
 
     return(
         <div className="telareunioes">
@@ -23,10 +43,10 @@ function Reunioes(){
                 </div>
                 <div className="painel-botoes">
                     <button className="microfone">
-                        <img src={IconeMicrofone} alt="icone do botao de microfone"/>
+                        <MicIcon />
                     </button>
                     <button className="camera">
-                        <img src={IconeCamera} alt="icone do botao de tela"/>
+                        <VideocamIcon />
                     </button>
                 </div>
             </div>
@@ -36,12 +56,30 @@ function Reunioes(){
                         <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
                     </div>
                     <div className="caixa-chat">
+                        <Chat
+                            pessoa="Mariana"
+                            texto="Boa noite, sejam bem-vindos á reunião com os sindicos deste mês"
+                        />
+                        <Chat
+                            pessoa="Juliana"
+                            texto="Boa noite"
+                        />
+                        <Chat
+                            pessoa="Claúdia"
+                            texto="Boa noite !!! por acaso a pauta de som á meia noite será votada hoje ?"
+                        />
+                        <Chat
+                            pessoa="Mariana"
+                            texto="Sim Claúdia, essa será a quinta pauta dessa reunião"
+                        />
                     </div>
                     <div className="caixa-texto-input">
-                        <input type="text" className="input-texto" />
-                        <button className="submit" src={Postar} >
-                            <img src={Postar} alt="icone do botao de postar"/>
-                        </button>
+                        <form className="caixa-texto-input" onSubmit={handleSubmit}>
+                            <input type="text" className="input-texto" value={texto} onChange={handleChange}/>
+                            <button className="submit" src={Postar} >
+                                <CheckCircleOutlineIcon />
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>

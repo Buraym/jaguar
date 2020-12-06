@@ -8,35 +8,39 @@ function SideBar(){
         <Menu>
 
             <Link to="/home">
-                <label className="inicio" > Inicio </label>
+                <label > Inicio </label>
             </Link>
 
             <Link to="/perfil">
-                <label className="perfil" > Perfil </label>
+                <label > Perfil </label>
             </Link>
 
             <Link to="/reunioes">
-                <label className="reunioes" > Reuniões </label>
+                <label > Reuniões </label>
             </Link>
 
-            <label className="eventos" > Eventos </label>
+            <Link to="/eventos">
+                <label > Eventos </label>
+            </Link>
 
             <Link to="/servicos">
-            <label className="servicos" > Serviços </label>
+                <label > Serviços </label>
             </Link>
 
-            <label className="classificados" > Classificados </label>
+            <Link to="/classificados">
+                <label className="classificados" > Classificados </label>
+            </Link>
 
             <Link to="/funcionarios">
-                <label className="funcionarios" > Funcionarios </label>
+                <label > Funcionarios </label>
             </Link>
 
             <Link to="/contabilidade">
-            <label className="contabilidade" > Contabilidade </label>
+                <label > Contabilidade </label>
             </Link>
 
             <Link to="/">
-                <label className="logout" > Logout </label>
+                <label > Logout </label>
             </Link>
         </Menu>
     );
