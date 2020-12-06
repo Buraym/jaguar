@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/servicosugerirstyle.css';
 import SideBar from '../components/SideBar';
+import {Link} from "react-router-dom";
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 
 function ServicosSugerir(){
@@ -31,7 +32,9 @@ function ServicosSugerir(){
                             <input className="campo-sugerir-input" type="text" />
                         </div>
                         <div className="campo-sugerir-submit">
-                            <button className="sugerir-submit"> Sugerir </button>
+                            <Link to="/servicos">
+                                <button className="sugerir-submit"> Sugerir </button>
+                            </Link>
                         </div>
                     </form>
                 </div>
