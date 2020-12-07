@@ -3,6 +3,7 @@ import '../styles/cardfuncionariosstyle.css';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import HourglassFullIcon from '@material-ui/icons/HourglassFull';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
+import {Link} from "react-router-dom";
 
 function CardFuncionario(props){
 
@@ -17,9 +18,11 @@ function CardFuncionario(props){
                 <label className="funcionario-salario"> {props.salario} </label>
             </div>
             <div className="caixa-acoes">
-                <button className="atualizar">
-                    <HourglassFullIcon color="action" />
-                </button>
+                <Link to="/escalasdosfuncionarios">
+                    <button className="atualizar">
+                        <HourglassFullIcon color="action" />
+                    </button>
+                </Link>
                 <button className="escalas">
                     <RefreshIcon color="action" />
                 </button>
