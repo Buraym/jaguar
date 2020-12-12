@@ -66,10 +66,12 @@
     flex-direction: column;
 }
 
-.input{
-    width: stretch;
+.input-editar-perfil{
+    width: 100%;
     height: min-content;
     border-radius: 10px;
+    background-color: #e5e5e5;
+    border:none;
     outline:none;
 }
 
@@ -87,8 +89,23 @@
     height:35px;
     width:225px;
     border-radius:30px;
+    background-color: #f48c06;
+    border: 3px solid #f48c06;
+    transition: 0.3s ease-in-out;
     outline:none;
 
     justify-content: center;
     align-items: center;
+}
+
+.salvar-perfil:hover{
+    background-color: white;
+}
+
+.salvar-perfil:hover .salvar-perfil-texto{
+    color: #f48c06;
+}
+
+.salvar-perfil-texto{
+    color:white;
 }

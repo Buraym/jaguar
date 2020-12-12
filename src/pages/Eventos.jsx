@@ -6,6 +6,8 @@ import Foto from '../assets/foto evento adoção.jpg';
 import Foto2 from '../assets/ano novo.jpg';
 import Foto3 from '../assets/casamento.jpg';
 import Foto4 from '../assets/festa.jpg';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 function Eventos(){
 

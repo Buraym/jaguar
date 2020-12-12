@@ -82,14 +82,44 @@
     width:60px;
     height:60px;
     outline:none;
-	border-radius:30px;
+    border-radius:30px;
+    background-color: #f48c06;
+    border:3px solid #f48c06;
+    transition: 0.3s ease-in-out;
+}
+
+.microfone:hover{
+    background-color: white;
+}
+
+.microfone:hover .icone-reunioes-mic{
+    color: #f48c06;
+}
+
+.icone-reunioes-mic{
+    color: white;
 }
 
 .camera{
     width:60px;
     height:60px;
     outline:none;
-	border-radius:30px;
+    border-radius:30px;
+    background-color: #f48c06;
+    border:3px solid #f48c06;
+    transition: 0.3s ease-in-out;
+}
+
+.camera:hover{
+    background-color: white;
+}
+
+.camera:hover .icone-reunioes-camera{
+    color: #f48c06;
+}
+
+.icone-reunioes-camera{
+    color: white;
 }
 
 
@@ -129,11 +159,11 @@
 
 .caixa-chat{
     display:flex;
-    width:90%;
-    height:80%;
+    width:95%;
+    height:85%;
     overflow-y: scroll;
     margin-bottom:10px;
-
+    border-radius:50px;
 
     flex-direction: column;
     flex-wrap: nowrap;
@@ -162,6 +192,8 @@
     border-radius: 30px;
     border:none;
     overflow-wrap: break-word;
+    text-align: justify;
+    word-break: break-all;
     margin: 5px;
     outline: none;
 

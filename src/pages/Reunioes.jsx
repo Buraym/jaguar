@@ -43,10 +43,10 @@ function Reunioes(){
                 </div>
                 <div className="painel-botoes">
                     <button className="microfone">
-                        <MicIcon />
+                        <MicIcon className="icone-reunioes-mic"/>
                     </button>
                     <button className="camera">
-                        <VideocamIcon />
+                        <VideocamIcon className="icone-reunioes-camera"/>
                     </button>
                 </div>
             </div>
