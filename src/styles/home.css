@@ -14,8 +14,9 @@
 
 .conteudo-pagina{
     display: flex;
-    width:stretch;
-    height:600px;   
+    width:100vw;
+    height:100vh;
+    overflow-y: scroll;
 
     justify-content: center;
     align-items: center;
@@ -41,4 +42,13 @@
     width:175px;
     height:175px;
     border-radius:90px;
+}
+
+.conteudo-pagina-avisos-caixa{
+    display:flex;
+    padding-top:30px;
+    overflow-x:scroll;
+
+    justify-content: flex-start;
+    flex-direction:column;
 }

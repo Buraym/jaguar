@@ -1,0 +1,289 @@
+.conteudo-classificados{
+    display:flex;
+    width:100vw;
+    height:stretch;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:column;
+}
+
+.classificados-titulo{
+    display:flex;
+    width:100%;
+    height:30%;
+    font-size:30px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.classificados-botao-utensilios{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-utensilios:hover{
+    border:3px solid #d62828;
+}
+
+.classificados-botao-utensilios:hover .classificados-texto-utensilios {
+    color: #d62828;
+}
+
+.classificados-botao-utensilios:hover .classificados-icone-utensilios {
+    color: #d62828;
+    opacity:1;
+}
+
+.classificados-texto-utensilios{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-utensilios{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}
+
+.classificados-botao-maquinas{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-maquinas:hover{
+    border:3px solid #219ebc;
+}
+
+.classificados-botao-maquinas:hover .classificados-texto-maquinas {
+    color: #219ebc;
+}
+
+.classificados-botao-maquinas:hover .classificados-icone-maquinas {
+    color: #219ebc;
+    opacity:1;
+}
+
+.classificados-texto-maquinas{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-maquinas{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}
+
+.classificados-botao-vagas{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-vagas:hover{
+    border:3px solid #8338ec;
+}
+
+.classificados-botao-vagas:hover .classificados-texto-vagas {
+    color: #8338ec;
+}
+
+.classificados-botao-vagas:hover .classificados-icone-vagas {
+    color: #8338ec;
+    opacity:1;
+}
+
+.classificados-texto-vagas{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-vagas{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}
+
+.classificados-botao-moveis{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-moveis:hover{
+    border:3px solid #b56576;
+}
+
+.classificados-botao-moveis:hover .classificados-texto-moveis {
+    color: #b56576;
+}
+
+.classificados-botao-moveis:hover .classificados-icone-moveis {
+    color: #b56576;
+    opacity:1;
+}
+
+.classificados-texto-moveis{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-moveis{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}
+
+.classificados-botao-procurar{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-procurar:hover{
+    border:3px solid #8d99ae;
+}
+
+.classificados-botao-procurar:hover .classificados-texto-procurar {
+    color: #8d99ae;
+}
+
+.classificados-botao-procurar:hover .classificados-icone-procurar {
+    color: #8d99ae;
+    opacity:1;
+}
+
+.classificados-texto-procurar{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-procurar{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}
+
+.classificados-botao-adicionar{
+    display:flex;
+    width:750px;
+    height:150px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    background-color: white;
+    border:3px solid #e85d04;
+    border-radius:30px;
+    font-size:30px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.classificados-botao-adicionar:hover{
+    border:3px solid #F7FE72;
+}
+
+.classificados-botao-adicionar:hover .classificados-texto-adicionar {
+    color: #F7FE72;
+}
+
+.classificados-botao-adicionar:hover .classificados-icone-adicionar {
+    color: #F7FE72;
+    opacity:1;
+}
+
+.classificados-texto-adicionar{
+    font-size:30px;
+    color:  #e85d04;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.classificados-icone-adicionar{
+    opacity: 0;
+    transition: 1.5s ease-in-out;
+}

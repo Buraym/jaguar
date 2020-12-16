@@ -23,9 +23,9 @@ function EditarPerfil(){
                                 <label className="cargo"> Cargo: </label>
                             </div>
                             <div className="caixa-input-editar">
-                                <input type="text" className="input" />
-                                <input type="text" className="input" />
-                                <input type="text" className="input" />
+                                <input type="text" className="input-editar-perfil" />
+                                <input type="text" className="input-editar-perfil" />
+                                <input type="text" className="input-editar-perfil" />
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,9 @@ function EditarPerfil(){
                 </div>
                 <div className="camada2ep">
                     <Link to="/perfil">
-                        <button className="salvar-perfil"> Salvar Alterações </button>
+                        <button className="salvar-perfil">
+                            <label className="salvar-perfil-texto"> Salvar Alterações </label>
+                        </button>
                     </Link>
                 </div>
             </div>

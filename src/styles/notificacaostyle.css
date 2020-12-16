@@ -1,20 +1,41 @@
+@keyframes inicio-conteudo{    
+    0%{
+        opacity:0;
+    }
+
+    89%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
 .caixa-notificacao{
     display:flex;
     width:850px;
     height:400px;
-    background-color:orange;
-    border-radius: 30px;
+    background-color: #e5e5e5;
+    box-shadow: 8px 8px 8px rgb(0,0,0,0.3);
+    border-radius:30px;
+    margin:50px;
+    animation:inicio-conteudo 6s;
 
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
 
-.input-titulo{
-    width:85%;
-    height: 7.5%;
-    outline:none;
-    border-radius: 20px;
+.caixa-notificacao-topico{
+    display:flex;
+    width:stretch;
+    height:;
+    padding:20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 .input-descricao{

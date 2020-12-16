@@ -28,6 +28,7 @@ import ServicosSugerir from './pages/ServicosSugerir';
 import Classificados from './pages/Classificados';
 
 import Funcionarios from './pages/Funcionarios';
+import FuncionariosEscalas from './pages/FuncionariosEscalas';
 
 import Contabilidade from './pages/Contabilidade';
 
@@ -57,6 +58,7 @@ function App() {
 
             <Route path="/classificados" component={Classificados} />
             <Route path="/funcionarios" component={Funcionarios} />
+            <Route path="/escalasdosfuncionarios" component={FuncionariosEscalas} />
             <Route path="/contabilidade" component={Contabilidade} />
             <Route path="/publicar-avisos" component={PublicarAvisos} />
             <Route path="/" component={Login} />

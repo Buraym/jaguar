@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/servicoprocurarstyle.css';
 import SideBar from '../components/SideBar';
+import SearchIcon from '@material-ui/icons/Search';
 
 function ServicosProcurar(){
 
@@ -10,7 +11,10 @@ function ServicosProcurar(){
                 <SideBar />
             </div>
             <div className="conteudo-servicos-procurar">
-                
+                <div className="servicos-procurar-campo">
+                    <input className="servicos-procurar-input" />
+                    <SearchIcon className="servicos-procurar-icone" fontSize="large"/>
+                </div>
             </div>
         </div>
     );

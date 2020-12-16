@@ -1,0 +1,17 @@
+.flecha-direita{
+    color:#8d99ae;
+    transition:0.3s ease-in-out;
+}
+
+.flecha-direita:hover{
+    color:#f48c06;
+}
+
+.flecha-esquerda{
+    color:#8d99ae;
+    transition:0.3s ease-in-out;
+}
+
+.flecha-esquerda:hover{
+    color:#f48c06;
+}

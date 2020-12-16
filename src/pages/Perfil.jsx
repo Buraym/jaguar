@@ -29,7 +29,9 @@ function Perfil(){
                         <label> Item Alugado </label>
                     </div>
                     <Link to="/editar_perfil">
-                        <button className="editar-perfil"> Editar perfil</button>
+                        <button className="editar-perfil">
+                            <label className="editar-perfil-texto"> Editar perfil </label>
+                        </button>
                     </Link>
                 </div>
             </div>
