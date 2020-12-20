@@ -11,19 +11,35 @@ import FotoExemploFuncionario5 from '../assets/foto funcionario exemplo 5.jpg';
 import FotoExemploFuncionario6 from '../assets/foto funcionario exemplo 6.jpg';
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 import PersonAddRoundedIcon from '@material-ui/icons/PersonAddRounded';
-import DataFuncionarios from "../data.json"
+import DataFuncionarios from "../datafuncionarios.json"
 
 function Funcionarios(){
 
-    /*const funcionarios = [data_funcionarios].map((funcionarios) => {
-        const funcionario1 = funcionarios[0];
-        const funcionario2 = funcionarios[1];
-        const funcionario3 = funcionarios[2];
-        const funcionario4 = funcionarios[3];
-        const funcionario5 = funcionarios[4];
-        const funcionario6 = funcionarios[5];
-        console.log(funcionario1.id + " " + funcionario1.nome);
-    });*/
+    const funcionarios = [DataFuncionarios].map((funcionario) => {
+        for (var i in funcionario) {
+            let funcionariox = funcionario[i]
+            for (var j in funcionario[i]) {
+                console.log(funcionariox.j);
+            }
+        }
+    });
+
+    /* var a = { "key1": "value1", "key2": "value2"};
+    var b = { "key3": "value3", "key4": "value4"};
+    var c = { "key5": "value5", "key6": "value6"};
+    var d = [a, b, c];
+    for(var i in d) {
+        if (i == 0){
+            var f = "funcionario 1";
+        }
+        if (i == 1){
+            var f = "funcionario 2";
+        }
+        if (i == 2){
+            var f = "funcionario 3";
+        }
+        console.log(f,d[i]);
+    } */
 
     const funcionario1 = DataFuncionarios[0];
     var nome1 = funcionario1.nome + " " + funcionario1.sobrenome;

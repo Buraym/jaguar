@@ -2,7 +2,7 @@
 
 .slick-slider {
     position: relative;
-    display: block;
+    display: flex;
     box-sizing: border-box;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -13,7 +13,12 @@
     -ms-touch-action: pan-y;
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
 .slick-list {
     position: relative;
     overflow: hidden;
@@ -82,7 +87,11 @@
     }
 
     .slick-initialized & {
-        display: block;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .slick-loading & {

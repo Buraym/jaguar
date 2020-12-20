@@ -24,13 +24,18 @@
     align-items: center;
 }
 
-.servicos-procurar-campo:hover {
+.servicos-procurar-campo:focus-within {
     width:400px;
     height:45px;
     padding-left:10px;
     padding-right:5px;
     border-radius:30px; 
     background-color: #e5e5e5;
+
+}
+
+.servicos-procurar-campo:focus-within .servicos-procurar-input{
+    opacity:1;
 }
 
 .servicos-procurar-input{
@@ -40,6 +45,8 @@
     outline:none;
     border:none;
     font-size:20px;
+    opacity:0;
+    transition:0.3s ease-in-out;
 }
 
 .servicos-procurar-icone{
