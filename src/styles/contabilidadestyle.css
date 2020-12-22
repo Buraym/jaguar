@@ -1,6 +1,7 @@
 .conteudo-contabilidade{
     display: flex;
-    width:stretch;
+    height:stretch;
+    width:100vw;
 
     justify-content: center;
     align-items: center;

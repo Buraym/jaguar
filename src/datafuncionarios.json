@@ -1,56 +1,68 @@
 [
     {
         "id":"0001",
-        "nome":"Samantha",
-        "sobrenome":"Barbosa",
+        "nome":"Samantha Barbosa",
         "cargo":"Sindica",
         "escala":"Diurno",
         "salario":"3500",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":false,
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     },
     {
         "id":"0002",
-        "nome":"Sergio",
-        "sobrenome":"Cabral",
+        "nome":"Sergio Cabral",
         "cargo":"Contabilidade",
         "escala":"estagiario",
         "salario":"3250",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":false,
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     },
     {
         "id":"0003",
-        "nome":"Maria",
-        "sobrenome":"Helena",
+        "nome":"Maria Helena",
         "cargo":"Gerente",
         "escala":"Noturno",
         "salario":"3300",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":"inativas",
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     },
     {
         "id":"0004",
-        "nome":"Otavio",
-        "sobrenome":"Sandiego",
+        "nome":"Otavio Sandiego",
         "cargo":"Socio",
         "escala":"Diurno",
         "salario":"5500",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":false,
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     },
     {
         "id":"0005",
-        "nome":"Felipe",
-        "sobrenome":"Chaves",
+        "nome":"Felipe Chaves",
         "cargo":"Arquiteto",
         "escala":"Diurno",
         "salario":"3000",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":false,
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     },
     {
         "id":"0006",
-        "nome":"Suzana",
-        "sobrenome":"Pires",
+        "nome":"Suzana Pires",
         "cargo":"Porteira",
         "escala":"Noturno",
         "salario":"3000",
-        "status":"empregado"
+        "status":"empregado",
+        "pendencias":false,
+        "ferias":"ativa",
+        "decimoterceiro":"ativo"
     }
 ]
