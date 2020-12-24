@@ -74,7 +74,7 @@
 }
 
 .lembrar{
-    color: rgba(42, 157, 143, 1);
+    color: #2a9d8f;
     font-size: 18px;
 }
 
@@ -86,6 +86,15 @@
     justify-content: space-evenly;
     align-items:center;
     flex-direction: column;
+}
+
+.span{
+    color: rgba(42, 157, 143, 1);
+    transition: 0.3s ease-in-out;
+}
+
+.span:hover{
+    color: #e85d04;
 }
 
 .botao_entrar{

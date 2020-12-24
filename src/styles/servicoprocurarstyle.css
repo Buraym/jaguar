@@ -34,7 +34,7 @@
 
 }
 
-.servicos-procurar-campo:focus-within .servicos-procurar-input{
+.servicos-procurar-campo:focus-within:focus-within .servicos-procurar-input{
     opacity:1;
 }
 
