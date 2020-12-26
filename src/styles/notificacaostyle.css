@@ -14,7 +14,7 @@
 
 .caixa-notificacao{
     display:flex;
-    width:850px;
+    width:70vw;
     height:400px;
     background-color: #e5e5e5;
     box-shadow: 8px 8px 8px rgb(0,0,0,0.3);
@@ -30,7 +30,21 @@
 .caixa-notificacao-topico{
     display:flex;
     width:stretch;
-    height:;
+    height:10%;
+    padding:20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa-notificacao-texto{
+    display:flex;
+    width:stretch;
+    height:60%;
+    overflow-x:scroll;
+    overflow-wrap: break-word;
+    word-break: break-all;
     padding:20px;
 
     justify-content: space-evenly;

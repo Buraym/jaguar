@@ -18,40 +18,45 @@ function Classificados(){
                 <SideBar />
             </div>
             <div className="conteudo-classificados">
+                <h1>Classificados</h1>
+                <Link to="/classificadosdeutensilios">
+                    <button className="classificados-botao-utensilios">
+                        <label className="classificados-texto-utensilios">Utensilios Domésticos</label>
+                        <HomeIcon className="classificados-icone-utensilios"/>
+                    </button>
+                </Link>
+                <Link to="/classificadosdemaquinasdelimpeza">
+                    <button className="classificados-botao-maquinas">
+                        <label className="classificados-texto-maquinas">Maquinas de Limpeza</label>
+                        <KitchenIcon className="classificados-icone-maquinas"/>
+                    </button>
+                </Link>
+                <Link to="/classificadosdevagasdeestacionamento">
+                    <button className="classificados-botao-vagas">
+                        <label className="classificados-texto-vagas">Vagas de estacionamento</label>
+                        <LocalParkingIcon className="classificados-icone-vagas"/>
+                    </button>
+                </Link>
+                <Link to="/classificadosdemoveis">
+                    <button className="classificados-botao-moveis">
+                        <label className="classificados-texto-moveis">Moveis</label>
+                        <EventSeatIcon className="classificados-icone-moveis"/>
+                    </button>
+                </Link>
 
-                <div className="classificados-titulo">
-                    <label>Classificados</label>
-                </div>
+                <Link to="/procurarclassificados">
+                    <button className="classificados-botao-procurar">
+                        <label className="classificados-texto-procurar">Procurar</label>
+                        <SearchIcon className="classificados-icone-procurar"/>
+                    </button>
+                </Link>
 
-                <button className="classificados-botao-utensilios">
-                    <label className="classificados-texto-utensilios">Utensilios Domésticos</label>
-                    <HomeIcon className="classificados-icone-utensilios"/>
-                </button>
-
-                <button className="classificados-botao-maquinas">
-                    <label className="classificados-texto-maquinas">Maquinas de Limpeza</label>
-                    <KitchenIcon className="classificados-icone-maquinas"/>
-                </button>
-
-                <button className="classificados-botao-vagas">
-                    <label className="classificados-texto-vagas">Vagas de estacionamento</label>
-                    <LocalParkingIcon className="classificados-icone-vagas"/>
-                </button>
-
-                <button className="classificados-botao-moveis">
-                    <label className="classificados-texto-moveis">Moveis</label>
-                    <EventSeatIcon className="classificados-icone-moveis"/>
-                </button>
-
-                <button className="classificados-botao-procurar">
-                    <label className="classificados-texto-procurar">Procurar</label>
-                    <SearchIcon className="classificados-icone-procurar"/>
-                </button>
-
-                <button className="classificados-botao-adicionar">
-                    <label className="classificados-texto-adicionar"> Sugerir Classificado </label>
-                    <LibraryAddCheckIcon className="classificados-icone-adicionar"/>
-                </button>
+                <Link to="/sugerirclassificados">
+                    <button className="classificados-botao-adicionar">
+                        <label className="classificados-texto-adicionar"> Sugerir Classificado </label>
+                        <LibraryAddCheckIcon className="classificados-icone-adicionar"/>
+                    </button>
+                </Link>
 
             </div>
         </div>

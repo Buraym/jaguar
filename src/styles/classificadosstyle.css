@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 .conteudo-classificados{
     display:flex;
     width:100vw;
@@ -20,7 +24,7 @@
 
 .classificados-botao-utensilios{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;
@@ -65,7 +69,7 @@
 
 .classificados-botao-maquinas{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;
@@ -110,7 +114,7 @@
 
 .classificados-botao-vagas{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;
@@ -155,7 +159,7 @@
 
 .classificados-botao-moveis{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;
@@ -200,7 +204,7 @@
 
 .classificados-botao-procurar{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;
@@ -245,7 +249,7 @@
 
 .classificados-botao-adicionar{
     display:flex;
-    width:750px;
+    width:80vw;
     height:150px;
     margin-top:20px;
     margin-bottom:20px;

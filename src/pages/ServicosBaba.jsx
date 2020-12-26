@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/servicobabastyle.css';
 import SideBar from '../components/SideBar';
+import CardServico from '../components/CardServico';
 import FotoBaba1 from '../assets/baba1.jpg';
 import FotoBaba2 from '../assets/baba2.jpg';
 
@@ -12,21 +13,20 @@ function ServicosBaba(){
                 <SideBar />
             </div>
             <div className="conteudo-servicos-baba">
-                <div className="perfil-baba">
-                        <img src={FotoBaba1} className="perfil-jardineiro1" />
-                        <label className="baba-nome"> Elaine Roberta </label>
-                        <label className="baba-contato"> (45) X XXXX-XXXX </label>
-                        <label className="baba-horario"> 6:30 ~ 14:30 </label>
-                        <p className="baba-descricao"> Olá, Meu nome é Elaine Roberta e eu trabalho há 20 anos como baba de crianças e adolescentes</p>
-                    </div>
-
-                    <div className="perfil-baba">
-                        <img src={FotoBaba2} className="perfil-baba2" />
-                        <label className="baba-nome"> Eduarda Faustini </label>
-                        <label className="baba-contato"> (45) X XXXX-XXXX </label>
-                        <label className="baba-horario"> 8:30 ~ 16:30 </label>
-                        <p className="baba-descricao"> Olá, Meu nome é Eduarda Faustini e eu trabalho há 20 anos como baba de crianças e adolescentes</p>
-                    </div>
+                <CardServico
+                    foto={FotoBaba1}
+                    nome="Juliana Bastos"
+                    contato="(XX) X XXXX-XXXX"
+                    horario="8:00 ~ 18:00"
+                    descricao="Olá, meu nome é Juliana Bastos, e sou Jardineira há 7 anos"
+                />
+                <CardServico
+                    foto={FotoBaba2}
+                    nome="Juliana Bastos"
+                    contato="(XX) X XXXX-XXXX"
+                    horario="8:00 ~ 18:00"
+                    descricao="Olá, meu nome é Juliana Bastos, e sou Jardineira há 7 anos"
+                />
             </div>
         </div>
     );

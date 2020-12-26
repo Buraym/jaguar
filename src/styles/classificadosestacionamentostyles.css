@@ -1,0 +1,57 @@
+.conteudo-classificados-estacionamento{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+    overflow-y: scroll;
+
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+}
+
+.item-vaga{
+    display:flex;
+    width:60vw;
+    height:450px;
+    padding:30px;
+    margin:30px;
+    box-shadow: -5px 5px 5px -5px rgb(0,0,0,0.3);
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.item-perfil{
+    display:flex;
+    width:100%;
+    height:30%;
+    padding-bottom: 50px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.classificado{
+    width:75px;
+    height:750px;
+    border-radius:10px;
+    object-fit:cover;
+}
+
+.perfil-pessoa-classificado-1{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.perfil-pessoa-classificado-2{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    object-fit:cover;
+}

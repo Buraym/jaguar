@@ -55,7 +55,7 @@ function Servicos(){
                         <SearchIcon className="servico-icone-procurar" fontSize="large"/>
                     </button>
                 </Link>
-                <Link to="/sugerirservicos">
+                <Link to="/sugerirservico">
                     <button className="botao-servicos-sugerir">
                         <label className="servico-texto-sugerir">Sugerir Serviço</label>
                         <PersonAddIcon className="servico-icone-sugerir" fontSize="large"/>

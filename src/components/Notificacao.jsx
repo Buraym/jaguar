@@ -15,7 +15,7 @@ function Notificacao(props) {
                     <label> { props.titulo } </label>
                     <label> { data_atual } </label>
                 </div>
-                <div className="caixa-notificacao-topico">
+                <div className="caixa-notificacao-texto">
                     <p className="input-descricao"> { props.descricao}</p>
                 </div>
             </div>

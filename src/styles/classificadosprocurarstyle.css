@@ -1,4 +1,4 @@
-.conteudo-servicos-procurar{
+.conteudo-classificados-procurar{
     display:flex;
     width:100vw;
     height:100vh;
@@ -9,7 +9,7 @@
     flex-direction:column;
 }
 
-.servicos-procurar-campo{
+.classificados-procurar-campo{
     display: flex;
     width:45px;
     height:45px;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.servicos-procurar-campo:focus-within {
+.classificados-procurar-campo:focus-within {
     width:400px;
     height:45px;
     padding-left:10px;
@@ -34,11 +34,11 @@
 
 }
 
-.servicos-procurar-campo:focus-within:focus-within .servicos-procurar-input{
+.classificados-procurar-campo:focus-within:focus-within .classificados-procurar-input{
     opacity:1;
 }
 
-.servicos-procurar-input{
+.classificados-procurar-input{
     background-color: transparent;
     width:stretch;
     height:stretch;
@@ -49,7 +49,7 @@
     transition:0.3s ease-in-out;
 }
 
-.servicos-procurar-icone{
+.classificados-procurar-icone{
     color: #d62828;
     border-radius:50%;
     z-index:1;

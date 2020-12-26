@@ -15,25 +15,27 @@ function Login() {
 
     return (
 
-        <div className="fundo">
+        <div className="conteudo-login">
 
             <div className="caixalogo">
 
-                <img src={FotoLogo} alt="foto logo" />
+                <img className="logo" src={FotoLogo} alt="foto logo" />
 
             </div>
 
             <div>
-                <form>
-                    <div className="Caixa">
-                        <label className="tag"> Login: </label>
-                        <input type="text" className="caixa_tag_input"/>
-                    </div>
-                    <div className="Caixa">
-                        <label className="tag"> Senha: </label>
-                        <input type="text" className="caixa_tag_input"/>
-                    </div>
-                </form>
+                <div className="conteudo-input-login">
+                    <form>
+                        <div className="Caixa">
+                            <label className="tag"> Login: </label>
+                            <input type="text" className="caixa_tag_input"/>
+                        </div>
+                        <div className="Caixa">
+                            <label className="tag"> Senha: </label>
+                            <input type="text" className="caixa_tag_input"/>
+                        </div>
+                    </form>
+                </div>
                 <div className="Caixa_lembrar">
                     <Checkbox
                         checked={checked}
@@ -44,7 +46,7 @@ function Login() {
                     <label className="lembrar"> Lembrar usuario </label>
                 </div>
                 <div className="Caixa_botao">
-                    <label className="lembrar"> Esqueceu sua senha ? Não tem cadastro ? </label>
+                    <label className="lembrar"> <span> <Link className="span"to="/"> Esqueceu sua senha </Link></span> ? Não tem <span><Link className="span" to="/cadastro"> Cadastro </Link></span> ? </label>
                     <Link to="/home">
                         <button className="botao_entrar">
                             <label className="entrar-label"> Entrar </label>

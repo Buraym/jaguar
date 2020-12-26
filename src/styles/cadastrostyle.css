@@ -1,0 +1,95 @@
+.tela-cadastro{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-cadastro-titulo{
+    width: 100vw;
+    height:20%;
+    text-align: center;
+}
+
+.conteudo-cadastro{
+    display:flex;
+    width: 100vw;
+    height:80%;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-cadastros{
+    display:flex;
+    width: 60vw;
+    height:100%;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-cadastro{
+    display:flex;
+    width: 100%;
+    height:20%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:row;
+}
+
+.caixa-cadastro-input{
+    
+    display:flex;
+    width: 60vw;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin:10px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.caixa-cadastro-submit{
+    
+    display:flex;
+    width: 60vw;
+    padding-top:30px;
+    padding-bottom:40px;
+    margin:10px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.input-cadastro-submit{
+    width: 50vw;
+    height: 30px;
+    background:  #E85D04;
+    border: 3px solid #E85D04;
+    border-radius:30px;
+    outline:none;
+    color:white;
+    font-size:20px;
+
+    transition: 0.3s ease-in-out;
+}
+
+.input-cadastro-submit:hover {
+    background: white;
+    color: #E85D04;
+}

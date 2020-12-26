@@ -14,18 +14,18 @@ function Perfil(){
             </div>
             <div className="conteudo-perfil">
                 <div className="coluna1">
-                    <img className="foto-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
+                    <img className="foto-de-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
                     <div className="dados-perfil">
-                        <label className="nome"> Nome Completo </label>
+                        <label className="nome"> Nome </label>
                         <label className="idade"> Idade </label>
                         <label className="status"> Morador </label>
                     </div>
                 </div>
                 <div className="coluna2">
-                    <div className="caixa-status">
+                    <div className="caixa-perfil-1">
                         <label> Status </label>
                     </div>
-                    <div className="caixa-alugado">
+                    <div className="caixa-perfil-1">
                         <label> Item Alugado </label>
                     </div>
                     <Link to="/editar_perfil">

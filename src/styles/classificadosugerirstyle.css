@@ -1,0 +1,64 @@
+.conteudo-classificados-sugerir{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+
+.campo-sugerir-caixa{
+    display:flex;
+    width:stretch;
+    height:50%;
+
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.campo-sugerir{
+    display:flex;
+    width:425px;
+    height:stretch;
+    padding: 15px;
+
+    justify-content: space-between;
+    align-items:space-evenly;
+    align-content: center;
+    flex-direction: row;
+}
+
+.campo-sugerir-input{
+    width:235px;
+    height:15px;
+    padding-left:10px;
+    border-radius:20px;
+    background-color: white;
+    border:3px solid #e85d04;
+    outline:none;
+}
+
+.campo-sugerir-submit{
+    display:flex;
+    width:stretch;
+    height:stretch;
+    padding-top:60px;
+
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+}
+
+.sugerir-submit{
+    width:325px;
+    height:35px;
+    border-radius:20px;
+    outline:none;
+    background-color: #e85d04;
+    border:3px solid #e85d04;
+    color:white;
+    font-size: 15px;
+}

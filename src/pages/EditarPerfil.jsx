@@ -15,10 +15,10 @@ function EditarPerfil(){
             <div className="conteudo-editar-perfil">
                 <div className="camada1">
                     <div className="coluna1">
-                        <img className="foto-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
+                        <img className="foto-de-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
                         <div className="dados">
                             <div className="caixa-identidade">
-                                <label className="nome"> Nome Completo: </label>
+                                <label className="nome"> Nome: </label>
                                 <label className="idade"> Idade: </label>
                                 <label className="cargo"> Cargo: </label>
                             </div>
@@ -30,12 +30,8 @@ function EditarPerfil(){
                         </div>
                     </div>
                     <div className="coluna2">
-                        <div className="caixa-status">
-                            <label> Status </label>
-                        </div>
-                        <div className="caixa-alugado">
-                            <label> Item Alugado </label>
-                        </div>
+                        <input className="caixa-perfil-input" type="text" placeholder="Status"/>
+                        <input className="caixa-perfil-input" type="text" placeholder="Item Alugado"/>
                     </div>
                 </div>
                 <div className="camada2ep">

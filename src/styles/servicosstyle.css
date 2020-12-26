@@ -16,7 +16,7 @@
 
 .botao-servicos-jardinaria{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -61,7 +61,7 @@
 
 .botao-servicos-encanamento{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -105,7 +105,7 @@
 
 .botao-servicos-empregada{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -149,7 +149,7 @@
 
 .botao-servicos-baba{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -193,7 +193,7 @@
 
 .botao-servicos-cozinheiro{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -237,7 +237,7 @@
 
 .botao-servicos-procurar{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;
@@ -281,7 +281,7 @@
 
 .botao-servicos-sugerir{
     display:flex;
-    width:750px;
+    width:80vw;
     height:125px;
     margin-top:20px;
     margin-bottom:20px;

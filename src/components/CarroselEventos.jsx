@@ -14,12 +14,12 @@ export default class SimpleSlider extends Component {
     render() {
       const settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 300,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         nextArrow: <FlechaDireita />,
-        prevArrow: <FlechaEsquerda />
+        prevArrow: <FlechaEsquerda />,
       };
       return (
         <div>
@@ -27,7 +27,6 @@ export default class SimpleSlider extends Component {
             <div>
                 <CardEvento
                     imagem={Foto}
-                    fallback="Adoção de pets"
                     nome="Feira de Adoção de animais de estimação"
                     descricao={ null }
                     local="Avenida Silvio Américo Sasdeli, 1234, perto do Subway"
