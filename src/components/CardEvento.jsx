@@ -12,7 +12,7 @@ function CardEvento(props) {
         <div className="card-evento">
 
             <div className="face-capa">
-                <img className="card-foto" src={props.imagem} alt={props.fallback} />
+                <img className="card-foto" src={props.imagem} alt="" />
             </div>
 
             <div className="face-conteudo">

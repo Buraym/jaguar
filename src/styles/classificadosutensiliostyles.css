@@ -1,0 +1,10 @@
+.conteudo-classificados-utensilios{
+    display:flex;
+    width: 100vw;
+    height:100vh;
+    overflow-y: scroll;
+
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+}

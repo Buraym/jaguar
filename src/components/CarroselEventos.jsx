@@ -27,7 +27,6 @@ export default class SimpleSlider extends Component {
             <div>
                 <CardEvento
                     imagem={Foto}
-                    fallback="Adoção de pets"
                     nome="Feira de Adoção de animais de estimação"
                     descricao={ null }
                     local="Avenida Silvio Américo Sasdeli, 1234, perto do Subway"

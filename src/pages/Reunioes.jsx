@@ -34,7 +34,7 @@ function Reunioes(){
             <div>
                 <SideBar />
             </div>
-            <div className="coluna1r">
+            <div className="camada1r">
                 <div className="painel-apresentador">
                     <div className="quadro-apresentador">
                         <img className="foto-apresentador" src={FotoSindico} alt="foto do sindico"/>
@@ -50,7 +50,7 @@ function Reunioes(){
                     </button>
                 </div>
             </div>
-            <div className="coluna2r">
+            <div className="camada2r">
                 <div className="caixa-input">
                     <div className="caixa-titulo">
                         <label className="titulo-reuniao"> Reunião Nº 35 dos sindícos </label>
@@ -77,7 +77,7 @@ function Reunioes(){
                         <form className="caixa-texto-input" onSubmit={handleSubmit}>
                             <input type="text" className="input-texto" value={texto} onChange={handleChange}/>
                             <button className="submit" src={Postar} >
-                                <CheckCircleOutlineIcon />
+                                <CheckCircleOutlineIcon className="botao-submit-reunioes" fontSize="medium"/>
                             </button>
                         </form>
                     </div>

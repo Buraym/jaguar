@@ -20,7 +20,15 @@ import ServicosBaba from './pages/ServicosBaba';
 import ServicosCozinheiro from './pages/ServicosCozinheiro';
 import ServicosProcurar from './pages/ServicosProcurar';
 import ServicosSugerir from './pages/ServicosSugerir';
+
 import Classificados from './pages/Classificados';
+import ClassificadosUtensilios from './pages/ClassificadosUtensilios';
+import ClassificadosLimpeza from './pages/ClassificadosLimpeza';
+import ClassificadosEstacionamento from './pages/ClassificadosEstacionamento';
+import ClassificadosMoveis from './pages/ClassificadosMoveis';
+import ClassificadosProcurar from './pages/ClassificadosProcurar';
+import ClassificadosSugerir from './pages/ClassificadosSugerir';
+
 import Funcionarios from './pages/Funcionarios';
 import FuncionariosEscalas from './pages/FuncionariosEscalas';
 import Contabilidade from './pages/Contabilidade';
@@ -39,7 +47,6 @@ function App() {
             <Route path="/editar_perfil" component={EditarPerfil} />
             <Route path="/reunioes" component={Reunioes} />
             <Route path="/eventos" component={Eventos} />
-
             <Route path="/servicos" component={Servicos} />
             <Route path="/servicosdejardinagem" component={ServicosJardinaria} />
             <Route path="/servicosdeencanamento" component={ServicosEncanamento} />
@@ -47,13 +54,19 @@ function App() {
             <Route path="/servicosdebaba" component={ServicosBaba} />
             <Route path="/servicosdecozinha" component={ServicosCozinheiro} />
             <Route path="/procurarservicos" component={ServicosProcurar} />
-            <Route path="/sugerirservicos" component={ServicosSugerir} />
-
+            <Route path="/sugerirservico" component={ServicosSugerir} />
             <Route path="/classificados" component={Classificados} />
+            <Route path="/classificadosdeutensilios" component={ClassificadosUtensilios} />
+            <Route path="/classificadosdemaquinasdelimpeza" component={ClassificadosLimpeza} />
+            <Route path="/classificadosdevagasdeestacionamento" component={ClassificadosEstacionamento} />
+            <Route path="/classificadosdemoveis" component={ClassificadosMoveis} />
+            <Route path="/procurarclassificados" component={ClassificadosProcurar} />
+            <Route path="/sugerirclassificados" component={ClassificadosSugerir} />
+
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/escalasdosfuncionarios" component={FuncionariosEscalas} />
             <Route path="/contabilidade" component={Contabilidade} />
-            <Route path="/publicar-avisos" component={PublicarAvisos} />
+            {/*<Route path="/publicar-avisos" component={PublicarAvisos} />*/}
             <Route path="/" component={Login} />
           </Switch>
         </div>
