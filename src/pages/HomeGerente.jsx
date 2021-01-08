@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import '../styles/homegerentestyles.css';
 import SideBar from '../components/SideBar';
 import FotoPerfil from '../assets/imagem perfil exemplo.jpg';
-import Portal from '@material-ui/core/Portal';
 import Notificacao from '../components/Notificacao';
 
 function HomeGerente() {
 
     const [titulo, setTitulo] = useState("");
     const [descricao, setDescricao] = useState("");
-    const [mount, setMount] = useState(false);
-    const container = React.useRef(null);
-    //console.log(diapublicado);
+    const [mount, setMount] = useState(false)
 
     var caixa_avisos ={
         titulo: titulo,
@@ -19,18 +17,26 @@ function HomeGerente() {
     }
 
     function HandleChangeTitulo(e){
-        setTitulo(e.target.value);
-        console.log("titulo: " + titulo)
+        if (mount !== true){
+            setTitulo(e.target.value);
+        }
     }
 
     function HandleChangeDescricao(e){
-        setDescricao(e.target.value);
-        console.log("descricao: " + descricao)
+        if (mount !== true) {
+            setDescricao(e.target.value);
+        }
     }
 
     function HandleSubmit(e){
-        caixa_avisos.titulo = titulo;
-        caixa_avisos.descricao = descricao;
+        var titulo_fixo = titulo;
+        var descricao_fixo = descricao;
+        caixa_avisos.titulo = titulo_fixo;
+        caixa_avisos.descricao = descricao_fixo;
+        const caixa = document.createElement("div");
+        const caixa_notificacao_atual = document.getElementById("caixa-notificacao-atual");
+        ReactDOM.render(<Notificacao titulo={caixa_avisos.titulo} descricao={caixa_avisos.descricao} />, caixa);
+        caixa_notificacao_atual.appendChild(caixa);
         setMount(true);
         e.preventDefault();
     }
@@ -52,14 +58,9 @@ function HomeGerente() {
                         <input className="input-descricao-avisos" type="text" onChange={HandleChangeDescricao}/>
                         <input className="input-submit-avisos" type="submit" onClick={HandleSubmit}/>
                     </div>
-                    {mount ?
-                        (
-                            <Portal container={container.current}>
-                                <Notificacao titulo={ caixa_avisos.titulo } descricao={ caixa_avisos.descricao }/>
-                            </Portal>
-                        ) : null
-                    }
-                    <div ref={container} />
+                    <div id="caixa-notificacao-atual">
+                        <Notificacao titulo="Ata Nº124: Tópico sobre Volume alto durante a noite" descricao="È constituído regra vigente á partir da data de publicação desta ata que quaisquer sons emitidos depois da meia noite, exceto em datas festivas (eg: Festa Junina, Natal, Pascoa e afins ) ou com a devida permissão será, deverá efetuar o pagamanto da multa de 500,00 R$ e uma advertência por escrito será entregue na caixa de correio do infrator"/>
+                    </div>
                 </div>
             </div>
         </div>  
