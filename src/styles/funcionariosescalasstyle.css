@@ -26,12 +26,13 @@
 .funcionarios-escalas-caixa{
     display:flex;
     width:100vw;
-    height:100vh;
+    height:900px;
     overflow: wrap;
 
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction:row;
+    flex-wrap:wrap;
 }
 
 .escala-campo{

@@ -7,7 +7,10 @@ import {
 
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+
 import Home from './pages/Home';
+import HomeGerente from './pages/HomeGerente';
+
 import Perfil from './pages/Perfil';
 import EditarPerfil from './pages/EditarPerfil';
 import Reunioes from './pages/Reunioes';
@@ -32,7 +35,6 @@ import ClassificadosSugerir from './pages/ClassificadosSugerir';
 import Funcionarios from './pages/Funcionarios';
 import FuncionariosEscalas from './pages/FuncionariosEscalas';
 import Contabilidade from './pages/Contabilidade';
-import PublicarAvisos from './pages/PublicarAvisos'
 
 function App() {
 
@@ -43,6 +45,7 @@ function App() {
           <Switch>
             <Route path="/cadastro" exact component={Cadastro} />
             <Route path="/home" exact component={Home} />
+            <Route path="/homegerente" exact component={HomeGerente} />
             <Route path="/perfil" component={Perfil} />
             <Route path="/editar_perfil" component={EditarPerfil} />
             <Route path="/reunioes" component={Reunioes} />
@@ -66,7 +69,6 @@ function App() {
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/escalasdosfuncionarios" component={FuncionariosEscalas} />
             <Route path="/contabilidade" component={Contabilidade} />
-            {/*<Route path="/publicar-avisos" component={PublicarAvisos} />*/}
             <Route path="/" component={Login} />
           </Switch>
         </div>

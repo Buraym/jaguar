@@ -43,13 +43,15 @@
 }
 
 .mao-dono{
+    width:10px;
+    height:10px;
     color: #f48c06;
     animation: maozinha 4s infinite ease-in-out;
 }
 
 .perfil-pessoa-classificado-1{
-    width:125px;
-    height:125px;
+    width:75px;
+    height:75px;
     border-radius:50%;
     object-fit:cover;
 }

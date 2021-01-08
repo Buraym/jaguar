@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/classificadosutensiliostyles.css';
 import SideBar from '../components/SideBar';
-import PanToolIcon from '@material-ui/icons/PanTool';
 import Usuario1 from '../assets/usuario1.jpg';
 import Usuario2 from '../assets/usuario2.jpg';
 import Utensilio1 from '../assets/utensilio1.jpg';

@@ -6,7 +6,6 @@ function CardEvento(props) {
     const dia = props.dia;
     const mes = props.mes;
     const data = dia + "/" + mes;
-    const hora = props.hora;
 
     return(
         <div className="card-evento">

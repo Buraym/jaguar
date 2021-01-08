@@ -1,0 +1,140 @@
+@keyframes inicio{    
+    40%{
+        opacity:1;
+    }
+
+    60%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.0;
+    }
+}
+
+@keyframes inicio-caixa-avisos{
+    0%{
+        opacity:0;
+    }
+
+    80%{
+        opacity:0;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+.conteudo-pagina{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    overflow-y: scroll;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.painel-animacao{
+    display:flex;
+    position: absolute;
+    animation: inicio 4s;
+    width:300px;
+    height:300px;
+    transition:3s ease-in-out 5s;
+    opacity:0.0;
+
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-usuario{
+    width:175px;
+    height:175px;
+    border-radius:90px;
+}
+
+.conteudo-pagina-avisos-caixa{
+    display:flex;
+    padding-top:30px;
+    overflow-x:scroll;
+
+    justify-content: flex-start;
+    flex-direction:column;
+}
+
+.caixa-criador-avisos{
+    display:flex;
+    width:70vw;
+    height:400px;
+    background-color: #e5e5e5;
+    border-radius:30px;
+    animation:inicio-caixa-avisos 8s;
+    padding:10px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.input-titulo-avisos{
+    width:60vw;
+    height:20px;
+    outline: none;
+    border-radius:30px;
+    background: #f48c06;
+    border: 3px solid #f48c06;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    color:white;
+}
+
+.input-titulo-avisos:focus-within {
+    background: white;
+    color: #f48c06;
+}
+
+.input-descricao-avisos{
+    display:flex;
+    width:60vw;
+    height:275px;
+    outline: none;
+    border-radius:30px;
+    background: #f48c06;
+    border: 3px solid #f48c06;
+    text-align:top;
+    transition: 0.3s ease-in-out;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    color: white;
+}
+
+.input-descricao-avisos:focus-within {
+    background: white;
+    color: #f48c06;
+}
+
+.input-submit-avisos{
+    width:40vw;
+    height:25px;
+    outline: none;
+    border-radius:30px;
+    background: #f48c06;
+    border: 3px solid #f48c06;
+    color:white;
+    transition: 0.3s ease-in-out;
+}
+
+.input-submit-avisos:hover {
+    background: white;
+    color:  #f48c06;
+}

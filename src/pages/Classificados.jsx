@@ -7,7 +7,6 @@ import HomeIcon from '@material-ui/icons/Home';
 import LocalParkingIcon from '@material-ui/icons/LocalParking';
 import EventSeatIcon from '@material-ui/icons/EventSeat'
 import LibraryAddCheckIcon from '@material-ui/icons/LibraryAddCheck';
-import Filter9PlusIcon from '@material-ui/icons/Filter9Plus';
 import SearchIcon from '@material-ui/icons/Search';
 
 function Classificados(){

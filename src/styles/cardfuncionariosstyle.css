@@ -89,6 +89,57 @@
     height: 35px;
     border-radius: 50%;
     border:none;
-    outline:none;
     background-color: #f48c06;
+}
+
+.deletar:focus .cardfuncionario children{
+    visibility: hidden;
+}
+
+.desaparecer-caixa{
+    display:none;
+    opacity:0;
+    width:225px;
+    height:400px;;
+    position:absolute;
+    z-index: 1;
+    background:lightblue;
+    border-radius: 30px;
+    transition:0.3s ease-in-out;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:column
+}
+
+.desaparecer-caixa:hover{
+    width:250px;
+    height:430px;
+}
+
+.desaparecer-mensagem-caixa{
+    width:90%;
+    padding-bottom:20px;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.desaparecer-botao{
+    background:none;
+    border:none;
+    outline:none;
+    padding-left:30px;
+    padding-right:30px;
+    transition:0.3s ease-in-out;
+}
+
+.desaparecer-botao:hover .icone-desaparecer{
+    color: #f48c06;
+}
+
+.icone-desaparecer{
+    color: #0096c7;
+    transition:0.3s ease-in-out;
 }

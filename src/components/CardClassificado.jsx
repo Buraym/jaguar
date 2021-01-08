@@ -7,9 +7,9 @@ function CardClassificado(props){
             
         <div className="item-utensilio">
             <div className="item-perfil">
-                <img src={props.foto} className="perfil-pessoa-classificado-1" />
+                <img src={props.foto} className="perfil-pessoa-classificado-1" alt="foto do usuario"/>
                 <PanToolIcon className="mao-dono"/>
-                <img src={props.fotoUtensilio} className="classificado" />
+                <img src={props.fotoUtensilio} className="classificado" alt="foto do classificado"/>
             </div>
             <label className="pessoa-nome"> {props.nome} </label>
             <label className="pessoa-contato"> {props.contato} </label>

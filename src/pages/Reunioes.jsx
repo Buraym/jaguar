@@ -11,7 +11,6 @@ import SideBar from '../components/SideBar';
 
 function Reunioes(){
     var [texto, setTexto] = useState("");
-    var isFocused = true;
 
     var chat_texto = {
         nome: "teste",
