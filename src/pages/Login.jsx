@@ -46,7 +46,7 @@ function Login() {
                     <label className="lembrar"> Lembrar usuario </label>
                 </div>
                 <div className="Caixa_botao">
-                    <label className="lembrar"> <span> <Link className="span"to="/"> Esqueceu sua senha </Link></span> ? Não tem <span><Link className="span" to="/cadastro"> Cadastro </Link></span> ? </label>
+                    <label className="lembrar"> <span> <Link className="span"to="/esqueceusenha"> Esqueceu sua senha </Link></span> ? Não tem <span><Link className="span" to="/cadastro"> Cadastro </Link></span> ? </label>
                     <Link to="/home">
                         <button className="botao_entrar">
                             <label className="entrar-label"> Entrar </label>
@@ -54,7 +54,6 @@ function Login() {
                     </Link>
                 </div>
             </div>
-            {/*<CampoLoginSenha/>*/}
             
         </div>  
       

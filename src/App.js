@@ -7,14 +7,19 @@ import {
 
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import EsqueceuSenha from './pages/EsqueceuSenha';
 
 import Home from './pages/Home';
 import HomeGerente from './pages/HomeGerente';
 
 import Perfil from './pages/Perfil';
 import EditarPerfil from './pages/EditarPerfil';
+
 import Reunioes from './pages/Reunioes';
+import ReunioesGerente from './pages/ReunioesGerente';
+
 import Eventos from './pages/Eventos';
+
 import Servicos from './pages/Servicos';
 import ServicosJardinaria from './pages/ServicosJardinaria';
 import ServicosEncanamento from './pages/ServicosEncanamento';
@@ -23,6 +28,7 @@ import ServicosBaba from './pages/ServicosBaba';
 import ServicosCozinheiro from './pages/ServicosCozinheiro';
 import ServicosProcurar from './pages/ServicosProcurar';
 import ServicosSugerir from './pages/ServicosSugerir';
+import ServicosGerente from './pages/ServicosGerente';
 
 import Classificados from './pages/Classificados';
 import ClassificadosUtensilios from './pages/ClassificadosUtensilios';
@@ -34,7 +40,11 @@ import ClassificadosSugerir from './pages/ClassificadosSugerir';
 
 import Funcionarios from './pages/Funcionarios';
 import FuncionariosEscalas from './pages/FuncionariosEscalas';
-import Contabilidade from './pages/Contabilidade';
+
+import Administracao from './pages/Administracao';
+import AdministracaoCondominos from './pages/AdministracaoCondominos';
+import AdministracaoMoradores from './pages/AdministracaoMoradores';
+import AdministracaoObras from './pages/AdministracaoObras';
 
 function App() {
 
@@ -44,13 +54,21 @@ function App() {
         <div>
           <Switch>
             <Route path="/cadastro" exact component={Cadastro} />
+            <Route path="/esqueceusenha" exact component={EsqueceuSenha} />
+
             <Route path="/home" exact component={Home} />
             <Route path="/homegerente" exact component={HomeGerente} />
+
             <Route path="/perfil" component={Perfil} />
             <Route path="/editar_perfil" component={EditarPerfil} />
+
             <Route path="/reunioes" component={Reunioes} />
+            <Route path="/reunioesgerente" component={ReunioesGerente} />
+
             <Route path="/eventos" component={Eventos} />
+
             <Route path="/servicos" component={Servicos} />
+            <Route path="/servicogerente" component={ServicosGerente} />
             <Route path="/servicosdejardinagem" component={ServicosJardinaria} />
             <Route path="/servicosdeencanamento" component={ServicosEncanamento} />
             <Route path="/servicosdeempregada" component={ServicosEmpregada} />
@@ -58,6 +76,7 @@ function App() {
             <Route path="/servicosdecozinha" component={ServicosCozinheiro} />
             <Route path="/procurarservicos" component={ServicosProcurar} />
             <Route path="/sugerirservico" component={ServicosSugerir} />
+
             <Route path="/classificados" component={Classificados} />
             <Route path="/classificadosdeutensilios" component={ClassificadosUtensilios} />
             <Route path="/classificadosdemaquinasdelimpeza" component={ClassificadosLimpeza} />
@@ -68,7 +87,12 @@ function App() {
 
             <Route path="/funcionarios" component={Funcionarios} />
             <Route path="/escalasdosfuncionarios" component={FuncionariosEscalas} />
-            <Route path="/contabilidade" component={Contabilidade} />
+
+            <Route path="/administracao" component={Administracao} />
+            <Route path="/administracaodemoradores" component={AdministracaoMoradores} />
+            <Route path="/administracaodecondominos" component={AdministracaoCondominos} />
+            <Route path="/administracaodeobras" component={AdministracaoObras} />
+
             <Route path="/" component={Login} />
           </Switch>
         </div>

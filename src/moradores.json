@@ -1,0 +1,23 @@
+[
+    {
+        "id":"923823821",
+        "nome":"Evandra Montemor",
+        "cargo":"morador",
+        "casa":"7117",
+        "inadimplente":false
+    },
+    {
+        "id":"893838390",
+        "nome":"Reginaldo Antunes",
+        "cargo":"morador",
+        "casa":"9002",
+        "inadimplente":true
+    }
+    {
+        "id":"321654098",
+        "nome":"Carla Moscowitz Silva",
+        "cargo":"morador",
+        "casa":"3321",
+        "inadimplente":true
+    }
+]

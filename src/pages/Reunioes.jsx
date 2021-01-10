@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/reunioesstyle.css';
 import FotoSindico from '../assets/foto sindico.jpg';
-import Postar from '../assets/icons/round_check_circle_outline_black_18dp.png';
 import MicIcon from '@material-ui/icons/Mic';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
@@ -37,7 +36,7 @@ function Reunioes(){
                 <div className="painel-apresentador">
                     <div className="quadro-apresentador">
                         <img className="foto-apresentador" src={FotoSindico} alt="foto do sindico"/>
-                        <label className="nome-apresentador"> Nome do apresentador </label>
+                        <label className="nome-apresentador"> Carlos Silva Beto </label>
                     </div>
                 </div>
                 <div className="painel-botoes">
@@ -75,7 +74,7 @@ function Reunioes(){
                     <div className="caixa-texto-input">
                         <form className="caixa-texto-input" onSubmit={handleSubmit}>
                             <input type="text" className="input-texto" value={texto} onChange={handleChange}/>
-                            <button className="submit" src={Postar} >
+                            <button className="submit">
                                 <CheckCircleOutlineIcon className="botao-submit-reunioes" fontSize="medium"/>
                             </button>
                         </form>

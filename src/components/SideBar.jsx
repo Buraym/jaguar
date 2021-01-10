@@ -32,15 +32,15 @@ function SideBar(){
             </Link>
 
             <Link to="/funcionarios">
-                <label > Funcionarios </label>
+                <label > Funcionários </label>
             </Link>
 
-            <Link to="/contabilidade">
-                <label > Contabilidade </label>
+            <Link to="/administracao">
+                <label > Administração </label>
             </Link>
 
             <Link to="/">
-                <label > Logout </label>
+                <label > Sair </label>
             </Link>
         </Menu>
     );

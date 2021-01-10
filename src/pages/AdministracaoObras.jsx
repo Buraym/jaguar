@@ -1,18 +1,18 @@
 import React from 'react';
-import '../styles/contabilidadestyle.css';
+import '../styles/administracaostyle.css';
 import SideBar from '../components/SideBar';
 
-function Contabilidade(){
+function AdministracaoObras(){
     return(
         <div className="tela-contabilidade">
             <div className="aba">
                 <SideBar />
             </div>
-            <div className="conteudo-contabilidade">
-
+            <div className="conteudo-administracao-obras">
+                
             </div>
         </div>
     );
 }
 
-export default Contabilidade;
+export default AdministracaoObras;
