@@ -142,3 +142,8 @@
     background: white;
     color:  #f48c06;
 }
+
+.caixa-notificacao-atual{
+    display:flex;
+    flex-direction:column-reverse;
+}

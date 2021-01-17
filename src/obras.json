@@ -1,0 +1,64 @@
+[
+    {
+        "id":120103130,
+        "nome":"Reconstrucao do Parquinho",
+        "local":"Parquinho",
+        "status":"projeto",
+        "empresa":"Contruct Construções SA",
+        "datainicio":false,
+        "datafim":false,
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    },
+    {
+        "id":95748900,
+        "nome":"Contrução do banheiro",
+        "local":"WC",
+        "status":"projeto",
+        "empresa":"Pisos e Paredes SA",
+        "datainicio":"11/02/2022",
+        "datafim":"01/04/2022",
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    },
+    {
+        "id":321654098,
+        "nome":"Contrução do Armazém",
+        "local":"Rua 14 de março",
+        "status":"andamento",
+        "empresa":"Espaços e Pinheros LTDA",
+        "datainicio":"20/06/2022",
+        "datafim":"29/08/2022",
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    },
+    {
+        "id":9345769120,
+        "nome":"Contrução do Sala de Reuniões",
+        "local":"Rua Fagundes",
+        "status":"andamento",
+        "empresa":"Partes Imoveis SA",
+        "datainicio":"11/02/2022",
+        "datafim":"01/04/2022",
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    },
+    {
+        "id":128748907,
+        "nome":"Contrução do Sala de Eventos",
+        "local":"Rua Fagundes",
+        "status":"realizada",
+        "empresa":"Calango construções SA",
+        "datainicio":"17/03/2019",
+        "datafim":"24/05/2019",
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    },
+    {
+        "id":112342890,
+        "nome":"Pavimentação da Rua",
+        "local":"Rua Loretto",
+        "status":"realizada",
+        "empresa":"Epitafio SA",
+        "datainicio":"01/07/2020",
+        "datafim":"08/09/2020",
+        "funcinarios":["Fernando Herique Cardozo", "Lucas Eriberto Marques", "Célio Alves da Silva", "Antonio Pette", "Ricardo Gonçalves", "Nando Carlos", "Fabricio Neto", "Natalia Bordim", "Peterson Kleber  Nunes", "Henrico Salvattore"]
+    }
+
+    
+]

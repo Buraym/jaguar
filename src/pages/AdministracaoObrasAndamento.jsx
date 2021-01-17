@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/administracaostyle.css';
 import SideBar from '../components/SideBar';
 
-function AdministracaoObras(){
+function AdministracaoObrasAndamento(){
     return(
         <div className="tela-contabilidade">
             <div className="aba">
@@ -15,4 +15,4 @@ function AdministracaoObras(){
     );
 }
 
-export default AdministracaoObras;
+export default AdministracaoObrasAndamento;

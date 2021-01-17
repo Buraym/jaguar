@@ -44,7 +44,9 @@ import FuncionariosEscalas from './pages/FuncionariosEscalas';
 import Administracao from './pages/Administracao';
 import AdministracaoCondominos from './pages/AdministracaoCondominos';
 import AdministracaoMoradores from './pages/AdministracaoMoradores';
-import AdministracaoObras from './pages/AdministracaoObras';
+import AdministracaoObrasRealizadas from './pages/AdministracaoObrasRealizadas';
+import AdministracaoObrasAndamento from './pages/AdministracaoObrasAndamento';
+import AdministracaoObrasProjetos from './pages/AdministracaoObrasProjetos';
 
 function App() {
 
@@ -91,7 +93,9 @@ function App() {
             <Route path="/administracao" component={Administracao} />
             <Route path="/administracaodemoradores" component={AdministracaoMoradores} />
             <Route path="/administracaodecondominos" component={AdministracaoCondominos} />
-            <Route path="/administracaodeobras" component={AdministracaoObras} />
+            <Route path="/administracaodeobrasrealizadas" component={AdministracaoObrasRealizadas} />
+            <Route path="/administracaodeobrasemandamento" component={AdministracaoObrasAndamento} />
+            <Route path="/administracaodeprojetosdeobras" component={AdministracaoObrasProjetos} />
 
             <Route path="/" component={Login} />
           </Switch>

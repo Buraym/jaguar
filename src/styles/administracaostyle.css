@@ -1,3 +1,12 @@
+@keyframes pop{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity:100%;
+    }
+}
+
 .conteudo-administracao{
     display: flex;
     height:stretch;
@@ -40,11 +49,38 @@
     margin-top:20px;
     outline:none;
     border-radius:30px;
+    border: 3px solid #f48c06;
+    color:white;
+    background:#f48c06;
+    font-size:17px;
+    transition: 0.3s ease-in-out;
+    animation:pop 1s;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+}
+
+.administracao-botao:hover{
+    color: #f48c06;
+    background:white;
+    border: 3px solid #f48c06;
+}
+
+.administracao-botao-pop{
+    display: flex;
+    width:65vw;
+    height:100px;
+    margin-top:20px;
+    outline:none;
+    border-radius:30px;
     border: 3px solid #00b4d8;
     color: #00b4d8;
     background:white;
     font-size:17px;
     transition: 0.3s ease-in-out;
+    animation:pop 1.3s;
 
     justify-content: center;
     align-items: center;
