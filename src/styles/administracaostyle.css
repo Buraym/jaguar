@@ -19,6 +19,20 @@
     flex-direction:column;
 }
 
+.conteudo-administracao-obras{
+    display: flex;
+    height:stretch;
+    width:100vw;
+    padding-top:40px;
+    padding-bottom:40px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
 .administracao-relatorios{
     display: flex;
     width:100vw;

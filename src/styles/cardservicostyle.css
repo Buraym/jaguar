@@ -1,10 +1,28 @@
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+
+    60%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 .card-perfil-servico{
     display:flex;
     width:60vw;
-    height:stretch;
+    min-width:100px;
+    height:375px;
     padding:30px;
+    padding-bottom:20px;
     margin:30px;
     box-shadow: -5px 5px 5px -5px rgb(0,0,0,0.3);
+    transition: 0.3s ease-in-out;
+    animation: aparecer 2s;
 
     justify-content: space-evenly;
     align-items: center;
@@ -39,4 +57,31 @@
     height:85px;
     border-radius:50%;
     object-fit:cover;
+}
+
+.perfil-servico-descricao{
+    width:90%;
+    height:300px;
+    overflow-y: scroll;
+}
+
+.caixa-avaliacao-servico{
+    display:flex;
+    width:100%;
+
+    justify-content: space-evenly;
+}
+
+.botao-negar-servico{
+    background: none;
+    border:none;
+    outline:none;
+    color:#f48c06;
+}
+
+.botao-aceitar-servico{
+    background: none;
+    border:none;
+    outline:none;
+    color:#2a9d8f;
 }

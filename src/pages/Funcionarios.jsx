@@ -9,16 +9,17 @@ import FotoExemploFuncionario3 from '../assets/foto funcionario exemplo 3.jpg';
 import FotoExemploFuncionario4 from '../assets/foto funcionario exemplo 4.jpg';
 import FotoExemploFuncionario5 from '../assets/foto funcionario exemplo 5.jpg';
 import FotoExemploFuncionario6 from '../assets/foto funcionario exemplo 6.jpg';
-import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
+import AccountDefault from '../assets/baseline_account_circle_black_18dp.png';
 import PersonAddRoundedIcon from '@material-ui/icons/PersonAddRounded';
 import DataFuncionarios from "../datafuncionarios.json"
 import Switch from '@material-ui/core/Switch';
 import Slider from '@material-ui/core/Slider';
-import { CenterFocusStrong } from '@material-ui/icons';
+//import { CenterFocusStrong } from '@material-ui/icons';
 
 function Funcionarios(){
 
     const [adicionar, setAdicionar] = useState(false);
+    const [foto, setFoto] = useState("");
     const [mount, setMount] = useState(false);
     const [nome, setNome] = useState(false);
     const [cargo, setCargo] = useState(false);
@@ -137,6 +138,25 @@ function Funcionarios(){
             setDecimo(!decimoterceiro);
         }
     }
+
+    function LoadImage(){
+        var input = document.createElement('input');
+        input.type = 'file';
+        input.onchange = e => { 
+            var file = e.target.files[0]; 
+            var reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.onload = readerEvent => {
+                var content = readerEvent.target.result;
+                var content_image = 'url('+ content +')';
+                setFoto(content_image);
+                document.querySelector('.funcionario-adicionar-foto').style.backgroundImage = 'url('+ content +')';
+                console.log(content_image);
+            }
+        }
+        input.click();
+    }
+
     function HandleSubmit(e){
         var nome_fixo = nome;
         var cargo_fixo = cargo;
@@ -167,15 +187,15 @@ function Funcionarios(){
             <div className="conteudo-funcionarios">
                 <h1 className="titulo"> Equipe de Funcionarios </h1>
                 <div id="secao-cards">
-                    <CardFuncionario nomecard="card1" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario} nome={ lista_nome[0] } cargo={ lista_cargo[0] } escala={ lista_escala[0] } salario={ lista_salario[0] }/>
-                    <CardFuncionario nomecard="card2" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario2} nome={ lista_nome[1] } cargo={ lista_cargo[1] } escala={ lista_escala[1] } salario={ lista_salario[1] }/>
-                    <CardFuncionario nomecard="card3" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario3} nome={ lista_nome[2] } cargo={ lista_cargo[2] } escala={ lista_escala[2] } salario={ lista_salario[2] }/>
-                    <CardFuncionario nomecard="card4" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome={ lista_nome[3] } cargo={ lista_cargo[3] } escala={ lista_escala[3] } salario={ lista_salario[3] }/>
-                    <CardFuncionario nomecard="card5" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome={ lista_nome[4] } cargo={ lista_cargo[4] } escala={ lista_escala[4] } salario={ lista_salario[4] }/>
-                    <CardFuncionario nomecard="card6" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome={ lista_nome[5] } cargo={ lista_cargo[5] } escala={ lista_escala[5] } salario={ lista_salario[5] }/>
-                    <CardFuncionario nomecard="card4" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome={ lista_nome[3] } cargo={ lista_cargo[3] } escala={ lista_escala[3] } salario={ lista_salario[3] }/>
-                    <CardFuncionario nomecard="card5" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome={ lista_nome[4] } cargo={ lista_cargo[4] } escala={ lista_escala[4] } salario={ lista_salario[4] }/>
-                    <CardFuncionario nomecard="card6" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome={ lista_nome[5] } cargo={ lista_cargo[5] } escala={ lista_escala[5] } salario={ lista_salario[5] }/>
+                    <CardFuncionario nomecard="card1" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario} nome={ lista_nome[0] } cargo={ lista_cargo[0] } escala={ lista_escala[0] } salario={ lista_salario[0] + " R$"}/>
+                    <CardFuncionario nomecard="card2" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario2} nome={ lista_nome[1] } cargo={ lista_cargo[1] } escala={ lista_escala[1] } salario={ lista_salario[1] + " R$"}/>
+                    <CardFuncionario nomecard="card3" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario3} nome={ lista_nome[2] } cargo={ lista_cargo[2] } escala={ lista_escala[2] } salario={ lista_salario[2] + " R$"}/>
+                    <CardFuncionario nomecard="card4" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome={ lista_nome[3] } cargo={ lista_cargo[3] } escala={ lista_escala[3] } salario={ lista_salario[3] + " R$"}/>
+                    <CardFuncionario nomecard="card5" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome={ lista_nome[4] } cargo={ lista_cargo[4] } escala={ lista_escala[4] } salario={ lista_salario[4] + " R$"}/>
+                    <CardFuncionario nomecard="card6" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome={ lista_nome[5] } cargo={ lista_cargo[5] } escala={ lista_escala[5] } salario={ lista_salario[5] + " R$"}/>
+                    <CardFuncionario nomecard="card4" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome={ lista_nome[3] } cargo={ lista_cargo[3] } escala={ lista_escala[3] } salario={ lista_salario[3] + " R$"}/>
+                    <CardFuncionario nomecard="card5" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome={ lista_nome[4] } cargo={ lista_cargo[4] } escala={ lista_escala[4] } salario={ lista_salario[4] + " R$"}/>
+                    <CardFuncionario nomecard="card6" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome={ lista_nome[5] } cargo={ lista_cargo[5] } escala={ lista_escala[5] } salario={ lista_salario[5] + " R$"}/>
                     {
                         mount ?
                             <div>
@@ -188,13 +208,19 @@ function Funcionarios(){
                 <div>
                     <div className="cardfuncionario-adicionar">
                         <div className="funcionario-fundo-adicionar"></div>
-                            <AccountCircleRoundedIcon className="funcionario-fundo-adicionar-foto" style={{ fontSize: 60 }} />
+                        <div className="funcionario-adicionar-foto" onClick={LoadImage}></div>
                             {
                                 adicionar ?
                                     <div className="coluna-adicionar-funcionario">
                                         <form onSubmit={HandleSubmit}>
                                             <div className="campo-input-adicionar-funcionario">
                                                 <input placeholder="Nome" type="text" style={{ outline: "none" }}/>
+                                            </div>
+                                            <div className="campo-input-adicionar-funcionario">
+                                                <input placeholder="RG" type="text" style={{ outline: "none" }}/>
+                                            </div>
+                                            <div className="campo-input-adicionar-funcionario">
+                                                <input placeholder="CPF" type="text" style={{ outline: "none" }}/>
                                             </div>
                                             <div className="campo-input-adicionar-funcionario">
                                                 <input placeholder="Cargo" type="text" style={{ outline: "none" }}/>
@@ -248,7 +274,7 @@ function Funcionarios(){
                                                 />
                                             </div>
                                             <div className="campo-input-adicionar-funcionario">
-                                                <input type="submit"/>
+                                                <input className="botao-concluir-funcionario" type="submit"/>
                                             </div>
                                         </form>
                                     </div>

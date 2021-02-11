@@ -13,7 +13,7 @@ function CardFuncionario(props) {
         <div className="cardfuncionario">
             <img className="funcionario-fundo" src={props.fotofundo} alt="imagem de fundo do card"/>
             <img className="funcionario-foto" src={props.fotofuncionario} alt="imagem da foto do funcionario do card"/>
-            <div className="caixa-informacoes">
+            <div className="caixa-informacoes-card-funcionario">
                 <label className="funcionario-nome"> {props.nome} </label>
                 <label className="funcionario-cargo"> {props.cargo} </label>
                 <label className="funcionario-escala"> {props.escala} </label>
