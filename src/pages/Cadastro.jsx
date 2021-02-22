@@ -53,6 +53,17 @@ function Cadastro(){
                         <div className="caixa-cadastro-input">
                             <ThemeProvider theme={theme}>
                                 <TextField
+                                label="Telefone"
+                                variant="outlined"
+                                id="mui-theme-provider-outlined-input"
+                                color="secondary"
+                                fullWidth="true"
+                                />
+                            </ThemeProvider>
+                        </div>
+                        <div className="caixa-cadastro-input">
+                            <ThemeProvider theme={theme}>
+                                <TextField
                                 label="Senha"
                                 variant="outlined"
                                 id="mui-theme-provider-outlined-input"
@@ -61,7 +72,6 @@ function Cadastro(){
                                 />
                             </ThemeProvider>
                         </div>
-
                         <div className="caixa-cadastro-submit">
                             <Link to="/home">
                                 <input className="input-cadastro-submit" type="Submit" placeholder="Criar sua Conta"/>

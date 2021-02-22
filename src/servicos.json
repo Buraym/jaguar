@@ -82,21 +82,21 @@
     [
         {
             "nome":"teste1",
-            "telenfone":"ejfjef",
+            "telefone":"ejfjef",
             "horario":"10:00 ~ 20:00",
             "descricao":"Olá, meu nome é teste1, e sou Jardineiro há 27 anos",
             "area":"outros"
         },
         {
             "nome":"teste2",
-            "telenfone":"ejfjef",
+            "telefone":"ejfjef",
             "horario":"10:00 ~ 20:00",
             "descricao":"Olá, meu nome é teste2, e sou Jardineiro há 27 anos",
             "area":"cozinheiro"
         },
         {
             "nome":"teste3",
-            "telenfone":"ejfjef",
+            "telefone":"ejfjef",
             "horario":"10:00 ~ 20:00",
             "descricao":"Olá, meu nome é teste3, e sou Jardineiro há 27 anos",
             "area":"jardinaria"

@@ -35,7 +35,7 @@ function Funcionarios(){
     var lista_escala = [];
     var lista_salario = [];
 
-    [DataFuncionarios].forEach((funcionario, nome, cargo, escala, salario) => {
+    [DataFuncionarios].forEach((funcionario) => {
         for (var i in funcionario) {
             lista_nome.push(funcionario[i].nome);
             lista_cargo.push(funcionario[i].cargo);

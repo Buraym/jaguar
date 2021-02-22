@@ -1,0 +1,78 @@
+.card-usuario{
+    display:flex;
+    width:60vw;
+    max-width: 750px;
+    height:stretch;
+    background:#f48c06;
+    color:white;
+    border-radius: 30px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.foto-card-usuario{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+}
+
+.card-usuario-superior{
+    display:flex;
+    width:100%;
+    height:100px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.card-usuario-superior-dados{
+    display:flex;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card-usuario-inferior{
+    display:flex;
+    width:100%;
+    height:100px;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.card-usuario-inferior-extra{
+    display:flex;
+    width:40%;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.card-usuario-inferior-botoes{
+    display:flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card-usuario-botao{
+    outline:none;
+    background: none;
+    border: none;
+}

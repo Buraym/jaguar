@@ -19,3 +19,9 @@
     align-items: center;
     align-content: center;
 }
+
+.botao-servico-gerente{
+    background:transparent;
+    border:none;
+    outline:none;
+}
