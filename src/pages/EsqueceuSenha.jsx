@@ -44,7 +44,6 @@ function EsqueceuSenha(){
             opcoes.email = email;
             opcoes.telefone = email;
             setOpcao(1);
-            
         }
         else if (email !== undefined && email !== ""){
             opcoes.email = email;
@@ -140,10 +139,10 @@ function EsqueceuSenha(){
                                                 />
                                             </ThemeProvider>
                                         </div>
+                                        <label> Digite aqui o código que você recebeu pelo telefone, caso você não tenha recebido o código via SMS, opcionalmente pegue o código pelo seu e-mail indicado, caso ainda não tenha recebido veja a seção de SPAM ou recarregue a pagina</label>
                                         <div className="caixa-cadastro-submit">
                                             <input className="input-cadastro-submit" type="Submit" placeholder="Criar sua Conta"/>
                                         </div>
-                                        <label> Digite aqui o código que você recebeu pelo telefone, caso você não tenha recebido o código via SMS, opcionalmente pegue o código pelo seu e-mail indicado, caso ainda não tenha recebido veja a seção de SPAM ou recarregue a pagina</label>
                                     </form>
                                 </div>
                             :
@@ -167,10 +166,10 @@ function EsqueceuSenha(){
                                                 />
                                             </ThemeProvider>
                                         </div>
+                                        <label> Digite o código enviado ao seu e-mail indicado, caso ainda não tenha recebido veja a seção de SPAM ou recarregue a pagina</label>
                                         <div className="caixa-cadastro-submit">
                                             <input className="input-cadastro-submit" type="Submit" placeholder="Criar sua Conta"/>
                                         </div>
-                                        <label> Digite o código enviado ao seu e-mail indicado, caso ainda não tenha recebido veja a seção de SPAM ou recarregue a pagina</label>
                                     </form>
                                 </div>
                             :
@@ -194,10 +193,10 @@ function EsqueceuSenha(){
                                                 />
                                             </ThemeProvider>
                                         </div>
+                                        <label> Digite aqui o código que você recebeu pelo telefone, caso você não tenha recebido o código via SMS, verifique se o numero enviado está correto ou recarregue a pagina</label>
                                         <div className="caixa-cadastro-submit">
                                             <input className="input-cadastro-submit" type="Submit" placeholder="Criar sua Conta"/>
                                         </div>
-                                        <label> Digite aqui o código que você recebeu pelo telefone, caso você não tenha recebido o código via SMS, verifique se o numero enviado está correto ou recarregue a pagina</label>
                                     </form>
                                 </div>
                             :

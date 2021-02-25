@@ -12,6 +12,8 @@ import EsqueceuSenha from './pages/EsqueceuSenha';
 import Home from './pages/Home';
 import HomeGerente from './pages/HomeGerente';
 
+import Error404 from './pages/Error404';
+
 import Perfil from './pages/Perfil';
 import EditarPerfil from './pages/EditarPerfil';
 
@@ -55,11 +57,11 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/cadastro" exact component={Cadastro} />
-            <Route path="/esqueceusenha" exact component={EsqueceuSenha} />
+            <Route path="/cadastro" component={Cadastro} />
+            <Route path="/esqueceusenha" component={EsqueceuSenha} />
 
-            <Route path="/home" exact component={Home} />
-            <Route path="/homegerente" exact component={HomeGerente} />
+            <Route path="/home" component={Home} />
+            <Route path="/homegerente" component={HomeGerente} />
 
             <Route path="/perfil" component={Perfil} />
             <Route path="/editar_perfil" component={EditarPerfil} />
@@ -97,7 +99,8 @@ function App() {
             <Route path="/administracaodeobrasemandamento" component={AdministracaoObrasAndamento} />
             <Route path="/administracaodeprojetosdeobras" component={AdministracaoObrasProjetos} />
 
-            <Route path="/" component={Login} />
+            <Route path="/" exact component={Login} />
+            <Route path="*" component={Error404} />
           </Switch>
         </div>
       </Router>

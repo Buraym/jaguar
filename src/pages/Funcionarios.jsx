@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import '../styles/funcionariosstyle.css';
 import SideBar from '../components/SideBar';
 import CardFuncionario from '../components/CardFuncionario';
@@ -10,7 +11,9 @@ import FotoExemploFuncionario4 from '../assets/foto funcionario exemplo 4.jpg';
 import FotoExemploFuncionario5 from '../assets/foto funcionario exemplo 5.jpg';
 import FotoExemploFuncionario6 from '../assets/foto funcionario exemplo 6.jpg';
 import AccountDefault from '../assets/baseline_account_circle_black_18dp.png';
+import DescriptionIcon from '@material-ui/icons/Description';
 import PersonAddRoundedIcon from '@material-ui/icons/PersonAddRounded';
+import PostAddIcon from '@material-ui/icons/PostAdd';
 import DataFuncionarios from "../datafuncionarios.json"
 import Switch from '@material-ui/core/Switch';
 import Slider from '@material-ui/core/Slider';
@@ -29,6 +32,7 @@ function Funcionarios(){
     const [pendencias, setPendencias] = useState(false);
     const [ferias, setFerias] = useState(false);
     const [decimoterceiro, setDecimo] = useState(false);
+    const [documentos, setDocumentos] = useState([]);
     
     var lista_nome = [];
     var lista_cargo = [];
@@ -139,7 +143,7 @@ function Funcionarios(){
         }
     }
 
-    function LoadImage(){
+    function AbrirImagem(){
         var input = document.createElement('input');
         input.type = 'file';
         input.onchange = e => { 
@@ -153,6 +157,24 @@ function Funcionarios(){
                 document.querySelector('.funcionario-adicionar-foto').style.backgroundImage = 'url('+ content +')';
                 console.log(content_image);
             }
+        }
+        input.click();
+    }
+
+    function AbrirDocumento(){
+        var input = document.createElement('input');
+        input.type = 'file';
+        input.onchange = e => {
+            let file_document = Array.from(input.files);
+            setDocumentos([...documentos, file_document]);
+            console.log(documentos);
+            if (mount === false) {
+                setMount(true);
+            }
+            const documento_icone = document.createElement("div");
+            const caixa_documentos_atual = document.getElementById("documentos-funcionario-adicionar");
+            ReactDOM.render(<DescriptionIcon style={{"color":"#f48c06"}}/>, documento_icone);
+            caixa_documentos_atual.appendChild(documento_icone);
         }
         input.click();
     }
@@ -196,19 +218,11 @@ function Funcionarios(){
                     <CardFuncionario nomecard="card4" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario4} nome={ lista_nome[3] } cargo={ lista_cargo[3] } escala={ lista_escala[3] } salario={ lista_salario[3] + " R$"}/>
                     <CardFuncionario nomecard="card5" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario5} nome={ lista_nome[4] } cargo={ lista_cargo[4] } escala={ lista_escala[4] } salario={ lista_salario[4] + " R$"}/>
                     <CardFuncionario nomecard="card6" fotofundo={FundoFuncionario} fotofuncionario={FotoExemploFuncionario6} nome={ lista_nome[5] } cargo={ lista_cargo[5] } escala={ lista_escala[5] } salario={ lista_salario[5] + " R$"}/>
-                    {
-                        mount ?
-                            <div>
-                                
-                            </div>
-                        :
-                            null
-                    }
                 </div>
                 <div>
                     <div className="cardfuncionario-adicionar">
                         <div className="funcionario-fundo-adicionar"></div>
-                        <div className="funcionario-adicionar-foto" onClick={LoadImage}></div>
+                        <div className="funcionario-adicionar-foto" onClick={AbrirImagem}></div>
                             {
                                 adicionar ?
                                     <div className="coluna-adicionar-funcionario">
@@ -272,6 +286,19 @@ function Funcionarios(){
                                                     onChange={HandleChangeDecimo}
                                                     color="primary"
                                                 />
+                                            </div>
+                                            <div className="caixa-documentos-funcionario-adicionar">
+                                                <label> Documentos </label>
+                                                {
+                                                    mount
+                                                        ?
+                                                            <div id="documentos-funcionario-adicionar"></div>
+                                                        :
+                                                            null
+                                                }
+                                                <button className="botao-documentos-funcionarios-adicionar" onClick={AbrirDocumento}>
+                                                    <PostAddIcon />
+                                                </button>
                                             </div>
                                             <div className="campo-input-adicionar-funcionario">
                                                 <input className="botao-concluir-funcionario" type="submit"/>

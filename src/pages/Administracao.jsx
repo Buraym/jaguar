@@ -15,7 +15,7 @@ function Administracao(){
     return(
         <div className="tela-contabilidade">
             <div className="aba">
-                <SideBar />
+                <SideBar status="gerente"/>
             </div>
             <div className="conteudo-administracao">
                 <h1> Administração </h1>
