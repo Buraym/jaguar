@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styles/reunioesgerentestyle.css';
+import { Link } from 'react-router-dom';
 import SideBar from '../components/SideBar';
 import reunioes from '../reunioes.json';
 
@@ -43,10 +44,16 @@ function ReunioesGerente(){
             </div>
             <div className="conteudo-reunioes-gerente">
                 <div className="iniciar-reuniao">
-                    <button className="botao-reuniao-iniciar"> Reunião Nº 3 </button>
+                    <Link to="/reunioes" style={{"display":"flex","width":"70%","justifyContent":"center"}}>
+                        <button className="botao-reuniao-iniciar"> Reunião Nº 3 </button>
+                    </Link>
                 </div>
                 <div className="reunioes-anteriores">
-                    { ListaReunioes }
+                    {
+                        <div>
+                            <label> { lista_titulo[0] }</label>
+                        </div>
+                    }
                 </div>
             </div>
         </div>

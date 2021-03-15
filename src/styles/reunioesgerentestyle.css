@@ -1,0 +1,32 @@
+.conteudo-reunioes-gerente{
+    display: flex;
+    width:100vw;
+    height:100vh;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.iniciar-reuniao{
+    display: flex;
+    width:75%;
+    height:110px;
+    padding:20px;
+    background: lightblue;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.botao-reuniao-iniciar{
+    width:70%;
+    height:80px;
+    background: #f48c06;
+    color: white;
+    border-radius: 20px;
+    border:none;
+    font-size: 16px;
+}
