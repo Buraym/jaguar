@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/administracaostyle.css';
 import SideBar from '../components/SideBar';
 import CardObra from '../components/CardObra';
-import FotoFundo from '../assets/planta-baixa-exemplo.png';
+import FotoFundo from '../assets/planta-baixa-exemplo.jpg';
 
 function AdministracaoObrasAndamento(){
     return(

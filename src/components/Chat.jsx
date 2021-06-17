@@ -7,7 +7,7 @@ function Chat(props){
     return(
         <div className="campo-chat">
             <div className="campo-pessoa">
-                <img className="foto" src={Foto} alt="foto de uma pessoa que falou algo"/>
+                <img className="foto" src={Foto}alt="foto de uma pessoa que falou algo"/>
                 <label className="pessoa"> {props.pessoa} </label>
             </div>
             <div className="campo-texto">

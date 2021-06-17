@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/projetostyle.css';
 import SideBar from '../components/SideBar';
 import CardObra from '../components/CardObra';
-import FotoFundo from '../assets/planta-baixa-exemplo.png';
+import FotoFundo from '../assets/planta-baixa-exemplo.jpg';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 function AdministracaoObrasProjetos(){
