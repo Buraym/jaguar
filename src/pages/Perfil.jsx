@@ -17,8 +17,7 @@ function Perfil(){
                     <img className="foto-de-perfil" src={ImagemPerfilExemplo} alt="Foto de Perfil"/>
                     <div className="dados-perfil">
                         <label className="nome"> Nome </label>
-                        <label className="idade"> Idade </label>
-                        <label className="status"> Morador </label>
+                        <label className="idade"> Telefone </label>
                     </div>
                 </div>
                 <div className="coluna2">
